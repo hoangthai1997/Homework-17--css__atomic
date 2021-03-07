@@ -7,7 +7,7 @@
   height: 100%;
 }
 
-.a-nav-link-active::after {
+.a-nav-link--active::after {
   content: "";
   background-image: linear-gradient(to right, #fbbd61, #ec7532);
   box-shadow: 0 0 10px 0 #fbbd61;
@@ -180,7 +180,7 @@
   border-bottom: white solid 1.5px;
 }
 
-.a-date-active {
+.a-date--active {
   color: #ec7532;
 }
 
