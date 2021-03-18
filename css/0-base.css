@@ -1,4 +1,5 @@
 body {
-  font-family: "roboto condensed", "sans-serif" !important;
+  font-family: "roboto condensed", "sans-serif";
   background-color: black;
+  box-sizing: border-box;
 }
