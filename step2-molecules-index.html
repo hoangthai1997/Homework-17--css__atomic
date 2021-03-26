@@ -18,8 +18,8 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/0-base.css" />
     <link rel="stylesheet" href="./css/0-reset.css" />
+    <link rel="stylesheet" href="./css/0-base.css" />
     <link rel="stylesheet" href="./css/step1-atom.css" />
     <link rel="stylesheet" href="./css/step2-molecules.css" />
     <title>Molecules</title>
@@ -30,25 +30,21 @@
         <img class="a-logo" src="./img/logo.svg" />
       </a>
       <nav>
-        <ul class="m-nav-list">
-          <li class="m-nav-item m-nav-item--active">
-            <a
-              class="m-nav-item__link m-nav-item__link--active a-nav-link a-nav-link--active"
-              href="#"
-              >Home</a
-            >
+        <ul class="m-nav">
+          <li>
+            <a class="a-nav-link a-nav-link--active" href="#">Home</a>
           </li>
-          <li class="m-nav-item">
-            <a class="m-nav-item__link a-nav-link" href="#">WHAT'S ON</a>
+          <li>
+            <a class="a-nav-link" href="#">WHAT'S ON</a>
           </li>
-          <li class="m-nav-item">
-            <a class="m-nav-item__link a-nav-link" href="#">SHORTCODES</a>
+          <li>
+            <a class="a-nav-link" href="#">SHORTCODES</a>
           </li>
-          <li class="m-nav-item">
-            <a class="m-nav-item__link a-nav-link" href="#">NEWS</a>
+          <li>
+            <a class="a-nav-link" href="#">NEWS</a>
           </li>
-          <li class="m-nav-item">
-            <a class="m-nav-item__link a-nav-link" href="#">CONTACT</a>
+          <li>
+            <a class="a-nav-link" href="#">CONTACT</a>
           </li>
         </ul>
       </nav>
@@ -60,10 +56,10 @@
           <h2 class="a-carousel-title">Carousel</h2>
         </header>
         <article>
-          <ul class="m-carousel-list">
-            <li class="m-carousel-list__categories a-categories">ACTION,</li>
-            <li class="m-carousel-list__categories a-categories">ADVENTURE,</li>
-            <li class="m-carousel-list__categories a-categories">FANTASY</li>
+          <ul class="m-categories">
+            <li class="a-category">ACTION</li>
+            <li class="a-category">ADVENTURE</li>
+            <li class="a-category">FANTASY</li>
           </ul>
           <h1 class="a-slider-title">End of the World: Part II</h1>
           <p class="a-slider-content">
@@ -71,21 +67,17 @@
             consuetudium lectorum. Mirum est notare quam littera gothica, quam
             nunc putamu.
           </p>
-          <div class="m-carousel-btn">
-            <span class="m-carousel-btn__ages a-slider-ages">PG</span>
-            <button class="m-slider-button">
-              <i class="m-slider-button__icon a-slider-icon material-icons"
-                >play_arrow</i
-              >
-              <p class="m-slider-button__play a-slider-play">PLAY TRAILER</p>
-            </button>
-          </div>
+          <span class="a-slider-rated">PG</span>
+          <button class="a-slider-button">
+            <i class="a-slider-icon material-icons">play_arrow</i>
+            <p class="a-slider-play">PLAY TRAILER</p>
+          </button>
         </article>
         <article>
-          <ul class="m-carousel-list">
-            <li class="m-carousel-list__categories a-categories">ACTION,</li>
-            <li class="m-carousel-list__categories a-categories">ADVENTURE,</li>
-            <li class="m-carousel-list__categories a-categories">FANTASY</li>
+          <ul class="m-categories">
+            <li class="a-category">ACTION</li>
+            <li class="a-category">ADVENTURE</li>
+            <li class="a-category">FANTASY</li>
           </ul>
           <h1 class="a-slider-title">End of the World: Part II</h1>
           <p class="a-slider-content">
@@ -93,21 +85,17 @@
             consuetudium lectorum. Mirum est notare quam littera gothica, quam
             nunc putamu.
           </p>
-          <div class="m-carousel-btn">
-            <span class="m-carousel-btn__ages a-slider-ages">15</span>
-            <button class="m-slider-button">
-              <i class="m-slider-button__icon a-slider-icon material-icons"
-                >play_arrow</i
-              >
-              <p class="m-slider-button__play a-slider-play">PLAY TRAILER</p>
-            </button>
-          </div>
+          <span class="a-slider-rated">15</span>
+          <button class="a-slider-button">
+            <i class="a-slider-icon material-icons">play_arrow</i>
+            <p class="a-slider-play">PLAY TRAILER</p>
+          </button>
         </article>
         <article>
-          <ul class="m-carousel-list">
-            <li class="m-carousel-list__categories a-categories">ACTION,</li>
-            <li class="m-carousel-list__categories a-categories">ADVENTURE,</li>
-            <li class="m-carousel-list__categories a-categories">FANTASY</li>
+          <ul class="m-categories">
+            <li class="a-category">ACTION</li>
+            <li class="a-category">ADVENTURE</li>
+            <li class="a-category">FANTASY</li>
           </ul>
           <h1 class="a-slider-title">End of the World: Part II</h1>
           <p class="a-slider-content">
@@ -115,67 +103,75 @@
             consuetudium lectorum. Mirum est notare quam littera gothica, quam
             nunc putamu.
           </p>
-          <div class="m-carousel-btn">
-            <span class="m-carousel-btn__ages a-slider-ages">PG</span>
-            <button class="m-slider-button">
-              <i class="m-slider-button__icon a-slider-icon material-icons"
-                >play_arrow</i
-              >
-              <p class="m-slider-button__play a-slider-play">PLAY TRAILER</p>
-            </button>
-          </div>
+          <span class="a-slider-rated">PG</span>
+          <button class="a-slider-button">
+            <i class="a-slider-icon material-icons">play_arrow</i>
+            <p class="a-slider-play">PLAY TRAILER</p>
+          </button>
         </article>
-        <ul class="m-bullet-list">
+        <ul class="m-bullets">
           <li>
-            <button
-              class="m-bullet-list__bullet a-bullet a-bullet--active"
-            ></button>
+            <button class="a-bullet a-bullet--active"></button>
           </li>
           <li>
-            <button class="m-bullet-list__bullet a-bullet"></button>
+            <button class="a-bullet"></button>
           </li>
           <li>
-            <button class="m-bullet-list__bullet a-bullet"></button>
+            <button class="a-bullet"></button>
           </li>
         </ul>
       </section>
 
       <section>
         <header>
-          <h2 class="a-new-title">NEW IN</h2>
+          <h2 class="a-section-title a-section-title--new">NEW IN</h2>
         </header>
         <ul>
           <li>
-            <figure class="m-new">
-              <img
-                class="m-new__picture a-new-picture"
-                src="./img/movie-1.jpg"
-              />
-              <figcaption class="m-new__figcaption">
-                <h1 class="m-new__name a-new-name">The last post</h1>
-                <ul class="m-star-list">
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+            <figure>
+              <img class="a-new-picture" src="./img/movie-1.jpg" />
+              <figcaption>
+                <h1 class="a-new-name">The last post</h1>
+                <ul class="m-stars">
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img class="a-new-picture" src="./img/movie-2.jpg" />
+              <figcaption>
+                <h1 class="a-new-name">Dark and lonely</h1>
+                <ul class="m-stars">
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                  <li>
+                    <i class="a-star a-star-disvoted material-icons"
                       >star_rate</i
                     >
                   </li>
@@ -184,115 +180,52 @@
             </figure>
           </li>
           <li>
-            <figure class="m-new">
-              <img
-                class="m-new__picture a-new-picture"
-                src="./img/movie-2.jpg"
-              />
-              <figcaption class="m-new__figcaption">
-                <h1 class=",-new__name a-new-name">Dark and lonely</h1>
-                <ul class="m-star-list">
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+            <figure>
+              <img class="a-new-picture" src="./img/movie-3.jpg" />
+              <figcaption>
+                <h1 class="a-new-name">Venture</h1>
+                <ul class="m-stars">
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
-                  <li class="m-star-item">
-                    <i
-                      class="m-star-item__icons a-star a-star-disvoted material-icons"
-                      >star_rate</i
-                    >
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
                   </li>
                 </ul>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure class="m-new">
-              <img
-                class="m-new__picture a-new-picture"
-                src="./img/movie-3.jpg"
-              />
-              <figcaption class="m-new__figcaption">
-                <h1 class="m-new__name a-new-name">Venture</h1>
-                <ul class="m-star-list">
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
+            <figure>
+              <img class="a-new-picture" src="./img/movie-4.jpg" />
+              <figcaption>
+                <h1 class="a-new-name">Hush</h1>
+                <ul class="m-stars">
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                  <li>
+                    <i class="a-star material-icons">star_rate</i>
+                  </li>
+                  <li>
+                    <i class="a-star a-star-disvoted material-icons"
                       >star_rate</i
                     >
                   </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                </ul>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure class="m-new">
-              <img
-                class="m-new__picture a-new-picture"
-                src="./img/movie-4.jpg"
-              />
-              <figcaption class="m-new__figcaption">
-                <h1 class="m-new__name a-new-name">Hush</h1>
-                <ul class="m-star-list">
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                  <li class="m-star-item">
-                    <i class="m-star-item__icons a-star material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                  <li class="m-star-item">
-                    <i
-                      class="m-star-item__icons a-star a-star-disvoted material-icons"
-                      >star_rate</i
-                    >
-                  </li>
-                  <li class="m-star-item">
-                    <i
-                      class="m-star-item__icons a-star a-star-disvoted material-icons"
+                  <li>
+                    <i class="a-star a-star-disvoted material-icons"
                       >star_rate</i
                     >
                   </li>
@@ -308,31 +241,27 @@
           <h2 class="a-schedule-title">Schedule</h2>
         </header>
         <nav>
-          <ul class="m-schedule-list">
-            <li class="m-schedule-item">
+          <ul class="m-dates">
+            <li>
               <button class="a-date">MON</button>
             </li>
-            <li class="m-schedule-item">
-              <button class="m-schedule-item__date a-date">TUE</button>
+            <li>
+              <button class="a-date">TUE</button>
             </li>
-            <li class="m-schedule-item">
-              <button
-                class="m-schedule-item__date m-schedule-item__date-active a-date a-date--active"
-              >
-                TODAY
-              </button>
+            <li>
+              <button class="a-date a-date--active">TODAY</button>
             </li>
-            <li class="m-schedule-item">
-              <button class="m-schedule-item__date a-date">THU</button>
+            <li>
+              <button class="a-date">THU</button>
             </li>
-            <li class="m-schedule-item">
-              <button class="m-schedule-item__date a-date">FRI</button>
+            <li>
+              <button class="a-date">FRI</button>
             </li>
-            <li class="m-schedule-item">
-              <button class="m-schedule-item__date a-date">SAT</button>
+            <li>
+              <button class="a-date">SAT</button>
             </li>
-            <li class="m-schedule-item">
-              <button class="m-schedule-item__date a-date">SUN</button>
+            <li>
+              <button class="a-date">SUN</button>
             </li>
           </ul>
         </nav>
@@ -340,12 +269,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-6.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">FANTASY</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">FANTASY</li>
               </ul>
               <h1 class="a-schedule-name">It's over</h1>
               <p class="a-schedule-description">
@@ -354,28 +281,24 @@
                 monstrous creatures.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">24:45</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">14:45</time>
+                </li>
+                <li>
+                  <time class="a-time">18:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:30</time>
+                </li>
+                <li>
+                  <time class="a-time">24:45</time>
+                </li>
+              </ul>
               <em class="a-minutes">105 MINS</em>
               <span class="a-schedule-ages">15</span>
             </article>
@@ -384,12 +307,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-5.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">SCI-FI</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">SCI-FI</li>
               </ul>
               <h1 class="a-schedule-name">
                 Captain America: The First Avenger
@@ -401,28 +322,24 @@
                 take down a war monger and a terrorist organization.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">16:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:00</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time">16:00</time>
+                </li>
+                <li>
+                  <time class="a-time">18:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:00</time>
+                </li>
+              </ul>
               <em class="a-minutes">120 MINS</em>
               <span class="a-schedule-ages">PG</span>
             </article>
@@ -439,31 +356,24 @@
                 his life.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >10:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >12:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">17:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">10:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">12:45</time>
+                </li>
+                <li>
+                  <time class="a-time">17:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">135 MINS</em>
               <span class="a-schedule-ages">18</span>
             </article>
@@ -480,31 +390,24 @@
                 neighborhood of Miami.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:30</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">14:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">117 MINS</em>
               <span class="a-schedule-ages">U</span>
             </article>
@@ -522,31 +425,24 @@
                 neighborhood of Miami.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:30</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">14:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">117 MINS</em>
               <span class="a-schedule-ages">U</span>
             </article>
@@ -555,12 +451,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-5.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">SCI-FI</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">SCI-FI</li>
               </ul>
               <h1 class="a-schedule-name">
                 Captain America: The First Avenger
@@ -572,28 +466,24 @@
                 take down a war monger and a terrorist organization.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-item-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">16:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:00</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time">16:00</time>
+                </li>
+                <li>
+                  <time class="a-time">18:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:00</time>
+                </li>
+              </ul>
               <em class="a-minutes">120 MINS</em>
               <span class="a-schedule-ages">PG</span>
             </article>
@@ -602,12 +492,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-6.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">FANTASY</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">FANTASY</li>
               </ul>
               <h1 class="a-schedule-name">It's over</h1>
               <p class="a-schedule-description">
@@ -616,28 +504,24 @@
                 monstrous creatures.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">24:45</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">14:45</time>
+                </li>
+                <li>
+                  <time class="a-time">18:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:30</time>
+                </li>
+                <li>
+                  <time class="a-time">24:45</time>
+                </li>
+              </ul>
               <em class="a-minutes">105 MINS</em>
               <span class="a-schedule-ages">15</span>
             </article>
@@ -654,31 +538,24 @@
                 his life.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >10:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >12:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">17:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">10:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">12:45</time>
+                </li>
+                <li>
+                  <time class="a-time">17:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">135 MINS</em>
               <span class="a-schedule-ages">18</span>
             </article>
@@ -688,12 +565,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-6.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">FANTASY</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">FANTASY</li>
               </ul>
               <h1 class="a-schedule-name">It's over</h1>
               <p class="a-schedule-description">
@@ -702,28 +577,24 @@
                 monstrous creatures.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">24:45</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">14:45</time>
+                </li>
+                <li>
+                  <time class="a-time">18:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:30</time>
+                </li>
+                <li>
+                  <time class="a-time">24:45</time>
+                </li>
+              </ul>
               <em class="a-minutes">105 MINS</em>
               <span class="a-schedule-ages">15</span>
             </article>
@@ -732,12 +603,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-5.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">SCI-FI</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">SCI-FI</li>
               </ul>
               <h1 class="a-schedule-name">
                 Captain America: The First Avenger
@@ -749,28 +618,24 @@
                 take down a war monger and a terrorist organization.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">16:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:00</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time">16:00</time>
+                </li>
+                <li>
+                  <time class="a-time">18:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:00</time>
+                </li>
+              </ul>
               <em class="a-minutes">120 MINS</em>
               <span class="a-schedule-ages">PG</span>
             </article>
@@ -787,31 +652,24 @@
                 neighborhood of Miami.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:30</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">14:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">117 MINS</em>
               <span class="a-schedule-ages">U</span>
             </article>
@@ -828,31 +686,24 @@
                 his life.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >10:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >12:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">17:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">10:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">12:45</time>
+                </li>
+                <li>
+                  <time class="a-time">17:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">135 MINS</em>
               <span class="a-schedule-ages">18</span>
             </article>
@@ -862,12 +713,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-5.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">SCI-FI</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">SCI-FI</li>
               </ul>
               <h1 class="a-schedule-name">
                 Captain America: The First Avenger
@@ -879,28 +728,24 @@
                 take down a war monger and a terrorist organization.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">16:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:00</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time">16:00</time>
+                </li>
+                <li>
+                  <time class="a-time">18:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:00</time>
+                </li>
+              </ul>
               <em class="a-minutes">120 MINS</em>
               <span class="a-schedule-ages">PG</span>
             </article>
@@ -917,31 +762,24 @@
                 neighborhood of Miami.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:30</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">14:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">117 MINS</em>
               <span class="a-schedule-ages">U</span>
             </article>
@@ -950,12 +788,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-6.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">FANTASY</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">FANTASY</li>
               </ul>
               <h1 class="a-schedule-name">It's over</h1>
               <p class="a-schedule-description">
@@ -964,28 +800,24 @@
                 monstrous creatures.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">24:45</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">14:45</time>
+                </li>
+                <li>
+                  <time class="a-time">18:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:30</time>
+                </li>
+                <li>
+                  <time class="a-time">24:45</time>
+                </li>
+              </ul>
               <em class="a-minutes">105 MINS</em>
               <span class="a-schedule-ages">15</span>
             </article>
@@ -1002,31 +834,24 @@
                 his life.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >10:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >12:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">17:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">10:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">12:45</time>
+                </li>
+                <li>
+                  <time class="a-time">17:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">135 MINS</em>
               <span class="a-schedule-ages">18</span>
             </article>
@@ -1036,12 +861,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-5.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">SCI-FI</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">SCI-FI</li>
               </ul>
               <h1 class="a-schedule-name">
                 Captain America: The First Avenger
@@ -1053,28 +876,24 @@
                 take down a war monger and a terrorist organization.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">16:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:00</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time">16:00</time>
+                </li>
+                <li>
+                  <time class="a-time">18:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:00</time>
+                </li>
+              </ul>
               <em class="a-minutes">120 MINS</em>
               <span class="a-schedule-ages">PG</span>
             </article>
@@ -1083,12 +902,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-6.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">FANTASY</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">FANTASY</li>
               </ul>
               <h1 class="a-schedule-name">It's over</h1>
               <p class="a-schedule-description">
@@ -1097,28 +914,24 @@
                 monstrous creatures.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">24:45</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">14:45</time>
+                </li>
+                <li>
+                  <time class="a-time">18:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:30</time>
+                </li>
+                <li>
+                  <time class="a-time">24:45</time>
+                </li>
+              </ul>
               <em class="a-minutes">105 MINS</em>
               <span class="a-schedule-ages">15</span>
             </article>
@@ -1135,31 +948,24 @@
                 neighborhood of Miami.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:30</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">14:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">117 MINS</em>
               <span class="a-schedule-ages">U</span>
             </article>
@@ -1176,31 +982,24 @@
                 his life.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time a-time m-time-item__time--disabled a-time-disabled"
-                      >10:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >12:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">17:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">10:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">12:45</time>
+                </li>
+                <li>
+                  <time class="a-time">17:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">135 MINS</em>
               <span class="a-schedule-ages">18</span>
             </article>
@@ -1210,12 +1009,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-6.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">FANTASY</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">FANTASY</li>
               </ul>
               <h1 class="a-schedule-name">It's over</h1>
               <p class="a-schedule-description">
@@ -1224,28 +1021,24 @@
                 monstrous creatures.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">24:45</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">14:45</time>
+                </li>
+                <li>
+                  <time class="a-time">18:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:30</time>
+                </li>
+                <li>
+                  <time class="a-time">24:45</time>
+                </li>
+              </ul>
               <em class="a-minutes">105 MINS</em>
               <span class="a-schedule-ages">15</span>
             </article>
@@ -1262,31 +1055,24 @@
                 neighborhood of Miami.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:30</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">14:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">117 MINS</em>
               <span class="a-schedule-ages">U</span>
             </article>
@@ -1295,12 +1081,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-5.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">SCI-FI</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">SCI-FI</li>
               </ul>
               <h1 class="a-schedule-name">
                 Captain America: The First Avenger
@@ -1312,28 +1096,24 @@
                 take down a war monger and a terrorist organization.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">16:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:00</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time">16:00</time>
+                </li>
+                <li>
+                  <time class="a-time">18:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:00</time>
+                </li>
+              </ul>
               <em class="a-minutes">120 MINS</em>
               <span class="a-schedule-ages">PG</span>
             </article>
@@ -1350,31 +1130,24 @@
                 his life.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >10:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >12:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">17:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">10:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">12:45</time>
+                </li>
+                <li>
+                  <time class="a-time">17:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">135 MINS</em>
               <span class="a-schedule-ages">18</span>
             </article>
@@ -1384,12 +1157,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-5.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">SCI-FI</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">SCI-FI</li>
               </ul>
               <h1 class="a-schedule-name">
                 Captain America: The First Avenger
@@ -1401,28 +1172,24 @@
                 take down a war monger and a terrorist organization.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">16:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:00</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time">16:00</time>
+                </li>
+                <li>
+                  <time class="a-time">18:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:00</time>
+                </li>
+              </ul>
               <em class="a-minutes">120 MINS</em>
               <span class="a-schedule-ages">PG</span>
             </article>
@@ -1431,12 +1198,10 @@
           <li>
             <img class="a-schedule-picture" src="./img/movie-6.jpg" />
             <article>
-              <ul class="m-categories-list">
-                <li class="m-categories-item a-schedule-categories">ACTION,</li>
-                <li class="m-categories-item a-schedule-categories">
-                  ADVENTURE,
-                </li>
-                <li class="m-categories-item a-schedule-categories">FANTASY</li>
+              <ul class="m-schedules">
+                <li class="a-schedule-categories">ACTION,</li>
+                <li class="a-schedule-categories">ADVENTURE,</li>
+                <li class="a-schedule-categories">FANTASY</li>
               </ul>
               <h1 class="a-schedule-name">It's over</h1>
               <p class="a-schedule-description">
@@ -1445,28 +1210,24 @@
                 monstrous creatures.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">18:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:30</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">24:45</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">14:45</time>
+                </li>
+                <li>
+                  <time class="a-time">18:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:30</time>
+                </li>
+                <li>
+                  <time class="a-time">24:45</time>
+                </li>
+              </ul>
               <em class="a-minutes">105 MINS</em>
               <span class="a-schedule-ages">15</span>
             </article>
@@ -1483,31 +1244,24 @@
                 neighborhood of Miami.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >11:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >14:30</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">20:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">11:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">14:30</time>
+                </li>
+                <li>
+                  <time class="a-time">20:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">117 MINS</em>
               <span class="a-schedule-ages">U</span>
             </article>
@@ -1524,31 +1278,24 @@
                 his life.
               </p>
               <a class="a-schedule-link" href="#">FULL SYNOPSIS</a>
-              <div class="m-schedule-date">
-                <h2 class="a-schedule-subtitle">
-                  <i class="a-schedule-icon">access_time</i> VIEWING TIMES
-                </h2>
-                <ul class="m-time-list">
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >10:00</time
-                    >
-                  </li>
-                  <li class="m-time-item m-time-item--disabled">
-                    <time
-                      class="m-time-item__time m-time-item__time--disabled a-time a-time-disabled"
-                      >12:45</time
-                    >
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">17:00</time>
-                  </li>
-                  <li class="m-time-item">
-                    <time class="m-time-item__time a-time">21:15</time>
-                  </li>
-                </ul>
-              </div>
+              <h2 class="a-schedule-subtitle">
+                <i class="a-schedule-icon material-icons">access_time</i>
+                VIEWING TIMES
+              </h2>
+              <ul class="m-times">
+                <li>
+                  <time class="a-time a-time-disabled">10:00</time>
+                </li>
+                <li>
+                  <time class="a-time a-time-disabled">12:45</time>
+                </li>
+                <li>
+                  <time class="a-time">17:00</time>
+                </li>
+                <li>
+                  <time class="a-time">21:15</time>
+                </li>
+              </ul>
               <em class="a-minutes">135 MINS</em>
               <span class="a-schedule-ages">18</span>
             </article>
@@ -1558,71 +1305,35 @@
 
       <section>
         <header>
-          <h2 class="a-coming-head">COMING SOON</h2>
+          <h2 class="a-section-title a-section-title--coming">COMING SOON</h2>
         </header>
         <ul>
           <li>
             <article>
-              <ul class="m-caption-list">
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  DRAMA,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  THRILLER
-                </li>
+              <ul class="m-coming">
+                <li class="a-coming-categories">DRAMA,</li>
+                <li class="a-coming-categories">THRILLER</li>
               </ul>
               <h1 class="a-coming-title">Deepwater Horizon</h1>
-              <ul class="m-comingstar-list">
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
+              <ul class="m-stars">
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
                 <li>
-                  <ul class="m-time-list">
-                    <li class="m-time-item">
-                      <i
-                        class="m-time-item__coming-clock a-coming-clock material-icons"
-                        >date_range</i
-                      >
-                    </li>
-                    <li class="m-time-item">
-                      <time class="m-time-item__coming-date a-coming-date"
-                        >30 September, 2017</time
-                      >
-                    </li>
-                  </ul>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
               </ul>
+              <i class="a-coming-clock material-icons">date_range</i>
+              <time class="a-coming-date">30 September, 2017</time>
               <p class="a-coming-description">
                 A dramatization of the April 2010 disaster, when the offshore
                 drilling rig Deepwater Horizon exploded and created the worst
@@ -1635,71 +1346,31 @@
           </li>
           <li>
             <article>
-              <ul class="m-caption-list">
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  ACTION,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  ADVENTURE,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  SCI-FI
-                </li>
+              <ul class="m-coming">
+                <li class="a-coming-categories">ACTION,</li>
+                <li class="a-coming-categories">ADVENTURE,</li>
+                <li class="a-coming-categories">SCI-FI</li>
               </ul>
               <h1 class="a-coming-title">X-Men: Days of Future Past</h1>
-              <ul class="m-comingstar-list">
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming--disvoted a-coming-star-disvoted material-icons"
-                    >star_rate</i
-                  >
+              <ul class="m-stars">
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
                 <li>
-                  <ul class="m-time-list">
-                    <li class="m-time-item">
-                      <i
-                        class="m-time-item__coming-clock a-coming-clock material-icons"
-                        >date_range</i
-                      >
-                    </li>
-                    <li class="m-time-item">
-                      <time class="m-time-item__coming-date a-coming-date"
-                        >07 September, 2018</time
-                      >
-                    </li>
-                  </ul>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star-disvoted material-icons">star_rate</i>
                 </li>
               </ul>
+              <i class="a-coming-clock material-icons">date_range</i>
+              <time class="a-coming-date">07 September, 2018</time>
               <p class="a-coming-description">
                 The X-Men send Wolverine to the past in a desperate effort to
                 change history and prevent an event that results in doom for
@@ -1712,66 +1383,30 @@
           </li>
           <li>
             <article>
-              <ul class="m-caption-list">
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  COMEDY,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  CRIME
-                </li>
+              <ul class="m-coming">
+                <li class="a-coming-categories">COMEDY,</li>
+                <li class="a-coming-categories">CRIME</li>
               </ul>
               <h1 class="a-coming-title">The Hangover Part III</h1>
-              <ul class="m-comingstar-list">
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
+              <ul class="m-stars">
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
                 <li>
-                  <ul class="m-time-list">
-                    <li class="m-time-item">
-                      <i
-                        class="m-time-item__coming-clock a-coming-clock material-icons"
-                        >date_range</i
-                      >
-                    </li>
-                    <li class="m-time-item">
-                      <time class="m-time-item__coming-date a-coming-date"
-                        >30 September, 2017</time
-                      >
-                    </li>
-                  </ul>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
               </ul>
+              <i class="a-coming-clock material-icons">date_range</i>
+              <time class="a-coming-date">30 September, 2017</time>
               <p class="a-coming-description">
                 When one of their own is kidnapped by an angry gangster, the
                 Wolf Pack must track down Mr. Chow, who has escaped from prison
@@ -1784,71 +1419,31 @@
           </li>
           <li>
             <article>
-              <ul class="m-caption-list">
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  ACTION,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  ADVENTURE,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  SCI-FI
-                </li>
+              <ul class="m-coming">
+                <li class="a-coming-categories">ACTION,</li>
+                <li class="a-coming-categories">ADVENTURE,</li>
+                <li class="a-coming-categories">SCI-FI</li>
               </ul>
               <h1 class="a-coming-title">Transformers: Age of Extinction</h1>
-              <ul class="m-comingstar-list">
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
+              <ul class="m-stars">
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
                 <li>
-                  <ul class="m-time-list">
-                    <li class="m-time-item">
-                      <i
-                        class="m-time-item__coming-clock a-coming-clock material-icons"
-                        >date_range</i
-                      >
-                    </li>
-                    <li class="m-time-item">
-                      <time class="m-time-item__coming-date a-coming-date"
-                        >15 April, 2018</time
-                      >
-                    </li>
-                  </ul>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
               </ul>
+              <i class="a-coming-clock material-icons">date_range</i>
+              <time class="a-coming-date">15 April, 2018</time>
               <p class="a-coming-description">
                 Autobots must escape sight from a bounty hunter who has taken
                 control of the human serendipity: Unexpectedly, Optimus Prime
@@ -1862,71 +1457,31 @@
           </li>
           <li>
             <article>
-              <ul class="m-caption-list">
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  ACTION,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  ADVENTURE,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  DRAMA
-                </li>
+              <ul class="m-coming">
+                <li class="a-coming-categories">ACTION,</li>
+                <li class="a-coming-categories">ADVENTURE,</li>
+                <li class="a-coming-categories">DRAMA</li>
               </ul>
               <h1 class="a-coming-title">End of an empire</h1>
-              <ul class="m-comingstar-list">
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming--disvoted a-coming-star-disvoted material-icons"
-                    >star_rate</i
-                  >
+              <ul class="m-stars">
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
                 <li>
-                  <ul class="m-time-list">
-                    <li class="m-time-item">
-                      <i
-                        class="m-time-item__coming-clock a-coming-clock material-icons"
-                        >date_range</i
-                      >
-                    </li>
-                    <li class="m-time-item">
-                      <time class="m-time-item__coming-date a-coming-date"
-                        >15 April, 2018</time
-                      >
-                    </li>
-                  </ul>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star-disvoted material-icons">star_rate</i>
                 </li>
               </ul>
+              <i class="a-coming-clock material-icons">date_range</i>
+              <time class="a-coming-date">15 April, 2018</time>
               <p class="a-coming-description">
                 A growing nation of genetically evolved apes led by Caesar is
                 threatened by a band of human survivors of the devastating virus
@@ -1939,71 +1494,31 @@
           </li>
           <li>
             <article>
-              <ul class="m-caption-list">
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  CRIME,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  THRILLER,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  DRAMA
-                </li>
+              <ul class="m-coming">
+                <li class="a-coming-categories">CRIME,</li>
+                <li class="a-coming-categories">THRILLER,</li>
+                <li class="a-coming-categories">DRAMA</li>
               </ul>
               <h1 class="a-coming-title">Hannibal Rising</h1>
-              <ul class="m-comingstar-list">
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
+              <ul class="m-stars">
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
                 <li>
-                  <ul class="m-time-list">
-                    <li class="m-time-item">
-                      <i
-                        class="m-time-item__coming-clock a-coming-clock material-icons"
-                        >date_range</i
-                      >
-                    </li>
-                    <li class="m-time-item">
-                      <time class="m-time-item__coming-date a-coming-date"
-                        >15 April, 2018</time
-                      >
-                    </li>
-                  </ul>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
               </ul>
+              <i class="a-coming-clock material-icons">date_range</i>
+              <time class="a-coming-date">15 April, 2018</time>
               <p class="a-coming-description">
                 After the death of his parents during World War II, young
                 Hannibal Lecter moves in with his beautiful aunt and begins
@@ -2017,71 +1532,31 @@
           </li>
           <li>
             <article>
-              <ul class="m-caption-list">
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  ADVENTURE,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  DRAMA,
-                </li>
-                <li
-                  class="m-caption-item__coming-categories a-coming-categories"
-                >
-                  SCI-FI
-                </li>
+              <ul class="m-coming">
+                <li class="a-coming-categories">ADVENTURE,</li>
+                <li class="a-coming-categories">DRAMA,</li>
+                <li class="a-coming-categories">SCI-FI</li>
               </ul>
               <h1 class="a-coming-title">Locked out</h1>
-              <ul class="m-comingstar-list">
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
-                </li>
-                <li class="m-comingstar-item">
-                  <i
-                    class="m-comingstar-item__coming a-coming-star material-icons"
-                    >star_rate</i
-                  >
+              <ul class="m-stars">
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
                 <li>
-                  <ul class="m-time-list">
-                    <li class="m-time-item">
-                      <i
-                        class="m-time-item__coming-clock a-coming-clock material-icons"
-                        >date_range</i
-                      >
-                    </li>
-                    <li class="m-time-item">
-                      <time class="m-time-item__coming-date a-coming-date"
-                        >15 April, 2018</time
-                      >
-                    </li>
-                  </ul>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
+                </li>
+                <li>
+                  <i class="a-coming-star material-icons">star_rate</i>
                 </li>
               </ul>
+              <i class="a-coming-clock material-icons">date_range</i>
+              <time class="a-coming-date">15 April, 2018</time>
               <p class="a-coming-description">
                 An astronaut becomes stranded on Mars after his team assume him
                 dead, and must rely on his ingenuity to find a way to signal to
@@ -2093,69 +1568,69 @@
             <i class="a-coming-play material-icons">play_arrow</i>
           </li>
         </ul>
-        <ul class="m-coming-slide-list">
-          <li class="m-coming-slide-item">
+        <ul>
+          <li>
             <figure>
               <img class="a-coming-slider" src="./img/movie-10.jpg" />
-              <figcaption>
-                <h1 class="a-coming-name">Deepwater horizon</h1>
-                <time class="a-coming-release">07 September, 2017</time>
-              </figcaption>
             </figure>
+            <figcaption>
+              <h1 class="a-coming-name">Deepwater horizon</h1>
+              <time class="a-coming-release">07 September, 2017</time>
+            </figcaption>
           </li>
-          <li class="m-coming-slide-item">
+          <li>
             <figure>
               <img class="a-coming-slider" src="./img/movie-9.jpg" />
-              <figcaption>
-                <h1 class="a-coming-name">Too fast</h1>
-                <time class="a-coming-release">15 April, 2017</time>
-              </figcaption>
             </figure>
+            <figcaption>
+              <h1 class="a-coming-name">Too fast</h1>
+              <time class="a-coming-release">15 April, 2017</time>
+            </figcaption>
           </li>
-          <li class="m-coming-slide-item">
+          <li>
             <figure>
               <img class="a-coming-slider" src="./img/movie-11.jpg" />
-              <figcaption>
-                <h1 class="a-coming-name">The Hangover: Part III</h1>
-                <time class="a-coming-release">30 September, 2017</time>
-              </figcaption>
             </figure>
+            <figcaption>
+              <h1 class="a-coming-name">The Hangover: Part III</h1>
+              <time class="a-coming-release">30 September, 2017</time>
+            </figcaption>
           </li>
-          <li class="m-coming-slide-item">
+          <li>
             <figure>
               <img class="a-coming-slider" src="./img/movie-12.jpg" />
-              <figcaption>
-                <h1 class="a-coming-name">Transformers: Age of Extinction</h1>
-                <time class="a-coming-release">15 April, 2018</time>
-              </figcaption>
             </figure>
+            <figcaption>
+              <h1 class="a-coming-name">Transformers: Age of Extinction</h1>
+              <time class="a-coming-release">15 April, 2018</time>
+            </figcaption>
           </li>
-          <li class="m-coming-slide-item">
+          <li>
             <figure>
               <img class="a-coming-slider" src="./img/movie-13.jpg" />
-              <figcaption>
-                <h1 class="a-coming-name">End of an empire</h1>
-                <time class="a-coming-release">19 October, 2018</time>
-              </figcaption>
             </figure>
+            <figcaption>
+              <h1 class="a-coming-name">End of an empire</h1>
+              <time class="a-coming-release">19 October, 2018</time>
+            </figcaption>
           </li>
-          <li class="m-coming-slide-item">
+          <li>
             <figure>
               <img class="a-coming-slider" src="./img/movie-14.jpg" />
-              <figcaption>
-                <h1 class="a-coming-name">The comedian</h1>
-                <time class="a-coming-release">21 November, 2018</time>
-              </figcaption>
             </figure>
+            <figcaption>
+              <h1 class="a-coming-name">The comedian</h1>
+              <time class="a-coming-release">21 November, 2018</time>
+            </figcaption>
           </li>
-          <li class="m-coming-slide-item">
+          <li>
             <figure>
               <img class="a-coming-slider" src="./img/movie-15.jpg" />
-              <figcaption>
-                <h1 class="a-coming-name">Locked out</h1>
-                <time class="a-coming-release">01 December, 2018</time>
-              </figcaption>
             </figure>
+            <figcaption>
+              <h1 class="a-coming-name">Locked out</h1>
+              <time class="a-coming-release">01 December, 2018</time>
+            </figcaption>
           </li>
         </ul>
       </section>
@@ -2164,20 +1639,10 @@
         <header>
           <h2 class="a-contact-head">Contact</h2>
         </header>
-        <ul class="m-contact-list">
-          <li class="m-contact-item">
-            <p class="m-contact-item__introduction a-contact-introduction">
-              Need help? Contact our support team on
-            </p>
-          </li>
-          <li class="m-contact-item">
-            <a
-              class="m-contact-item__phone a-contact-phone"
-              href="tel: 0330 123 4567"
-              >0330 123 4567</a
-            >
-          </li>
-        </ul>
+        <p class="a-contact-introduction">
+          Need help? Contact our support team on
+        </p>
+        <a class="a-contact-phone" href="tel: 0330 123 4567">0330 123 4567</a>
       </section>
     </main>
     <footer>
@@ -2185,17 +1650,15 @@
         <header>
           <h3 class="a-footer-head">GET IN TOUCH</h3>
         </header>
-        <ul class="m-footer-list">
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#">FAQs</a>
+        <ul class="m-footer">
+          <li>
+            <a class="a-footer-link" href="#">FAQs</a>
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#"
-              >Give us feedback</a
-            >
+          <li>
+            <a class="a-footer-link" href="#">Give us feedback</a>
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#">Contact us</a>
+          <li>
+            <a class="a-footer-link" href="#">Contact us</a>
           </li>
         </ul>
       </section>
@@ -2203,18 +1666,18 @@
         <header>
           <h3 class="a-footer-head">ABOUT MOVIE STAR</h3>
         </header>
-        <ul class="m-footer-list">
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#">About us</a>
+        <ul class="m-footer">
+          <li>
+            <a class="a-footer-link" href="#">About us</a>
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#">Find us</a>
+          <li>
+            <a class="a-footer-link" href="#">Find us</a>
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#">Schedule</a>
+          <li>
+            <a class="a-footer-link" href="#">Schedule</a>
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#">News</a>
+          <li>
+            <a class="a-footer-link" href="#">News</a>
           </li>
         </ul>
       </section>
@@ -2222,21 +1685,15 @@
         <header>
           <h3 class="a-footer-head">LEGAL STUFF</h3>
         </header>
-        <ul class="m-footer-list">
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#"
-              >Terms & Conditions</a
-            >
+        <ul class="m-footer">
+          <li>
+            <a class="a-footer-link" href="#">Terms & Conditions</a>
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#"
-              >Privacy policy</a
-            >
+          <li>
+            <a class="a-footer-link" href="#">Privacy policy</a>
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#"
-              >Cookie policy</a
-            >
+          <li>
+            <a class="a-footer-link" href="#">Cookie policy</a>
           </li>
         </ul>
       </section>
@@ -2244,30 +1701,24 @@
         <header>
           <h3 class="a-footer-head">CONNECT WITH US</h3>
         </header>
-        <ul class="m-footer-list">
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#"
-              ><i class="m-footer-item__icon a-footer-icon fa fa-facebook"></i
-              >Facebook</a
+        <ul class="m-footer">
+          <li>
+            <a class="a-footer-link" href="#"
+              ><i class="a-footer-icon fa fa-facebook"></i>Facebook</a
             >
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#"
-              ><i class="m-footer-item__icon a-footer-icon fa fa-twitter"></i
-              >Twitter</a
+          <li>
+            <a class="a-footer-link" href="#"
+              ><i class="a-footer-icon fa fa-twitter"></i>Twitter</a
             >
           </li>
-          <li class="m-footer-item">
-            <a class="m-footer-item__link a-footer-link" href="#"
-              ><i
-                class="m-footer-item__icon a-footer-icon fa fa-google-plus"
-              ></i
-              >Google +</a
+          <li>
+            <a class="a-footer-link" href="#"
+              ><i class="a-footer-icon fa fa-google-plus"></i>Google +</a
             >
           </li>
         </ul>
       </section>
-      <hr />
       <span class="a-footer-copyright"
         >2017 © Movie Star /
         <a class="a-footer-copyright--link" href="#"
