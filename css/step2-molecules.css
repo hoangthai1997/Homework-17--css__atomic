@@ -1,248 +1,59 @@
-* {
-  box-sizing: border-box;
-}
-
-.m-link {
-  text-decoration: none;
-  color: black;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-}
-
-.m-link__logo {
-  margin-top: 52px;
-  margin-bottom: 52px;
-}
-
-.m-nav-list {
+.m-nav {
   display: flex;
 }
 
-.m-nav-item--active::after {
-  position: absolute;
-  right: auto;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 0;
-  height: 2px;
-  content: "";
-  transition: all 0.25s ease-in-out;
-  background-image: linear-gradient(to right, #fbbd61, #ec7532);
-}
-
-.m-nav-item {
-  position: relative;
-  margin: 0;
-  list-style: none;
-  display: block;
-}
-
-.m-nav-item::after {
-  position: absolute;
-  right: auto;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 0;
-  height: 2px;
-  content: "";
-  transition: all 0.25s ease-in-out;
-  background-image: linear-gradient(to right, #fbbd61, #ec7532);
-  box-shadow: 0 0 20px 0 #fbbd61;
-  box-sizing: border-box;
-}
-
-.m-carousel-list {
-  display: flex;
-  margin-bottom: -15px;
-}
-
-.m-slider__title {
-  margin-bottom: -8px;
-}
-
-.m-slider__content {
-  margin-bottom: 15px;
-}
-
-.m-carousel-btn {
+.m-categories {
   display: flex;
 }
 
-.m-slider-button {
-  border: none;
-  background-image: linear-gradient(to right, #fbbd61, #ec7532);
-  font-size: 13px;
-  font-weight: 400;
-  position: relative;
-  overflow: hidden;
-  width: auto;
-  height: 50px;
-  margin-top: 15px;
-  margin-left: 5px;
-  padding: 12px 24px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 30px;
-  background-color: #fff;
-  margin-bottom: 0;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  touch-action: manipulation;
-  cursor: pointer;
-  user-select: none;
-  transition: all 300ms ease-in-out;
-  text-decoration: none;
-  outline: none;
-  box-shadow: none;
+.m-categories .a-category {
+  padding-right: 6px;
+}
+
+.m-bullets {
   display: flex;
 }
 
-.m-slider-button__icon {
-  position: relative;
-  display: inline-flex;
-  padding-right: 5px;
+.m-bullets li {
+  margin-left: 10px;
 }
 
-.m-slider-button__play {
-  position: relative;
-}
-
-.m-bullet-list {
+.m-stars {
   display: flex;
 }
 
-.m-bullet-item__bullet {
-  margin-right: 8px;
+.m-stars li:not(:first-child) {
+  margin-left: 3px;
 }
 
-.m-new-title {
-  margin-bottom: 40px;
-  margin-left: 240px;
-  margin-right: 210px;
-  margin-top: 32px;
-}
-
-.m-new {
-  width: 263px;
-  display: block;
-  text-align: center;
-  margin: 0 15px;
-  height: 100%;
-  min-height: 1;
-}
-
-.m-star-list {
-  display: flex;
-  margin-left: 82px;
-  margin-top: 5px;
-}
-
-.m-star-item {
-  padding-right: 3px;
-}
-
-.m-schedule-list {
-  display: flex;
-  font-size: 0;
-  padding: 0;
-  margin: 0;
-  border-bottom: 1px solid #d8d8d8;
-  margin-left: 155px;
-  margin-right: 210px;
-}
-
-.m-schedule-item {
-  display: inline-block;
-}
-
-.m-categories-list {
+.m-dates {
   display: flex;
 }
 
-.m-categories-item {
-  margin-right: 5px;
-}
-
-.m-schedule-date {
-  display: flex;
-  margin-top: 40px;
-}
-
-.m-coming--head {
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-bottom: 50px;
-}
-
-.m-comingstar--list {
+.m-schedules {
   display: flex;
 }
 
-.m-comingstar--item {
-  margin-right: 4px;
+.m-schedules li {
+  padding-right: 6px;
 }
 
-.m-coming--video {
-  position: relative;
-  z-index: 1;
-  left: 8.33333333%;
-  width: 50%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.m-caption--list {
+.m-times {
   display: flex;
 }
 
-.m-caption--item__coming-categories {
-  margin-right: 6px;
+.m-times li:not(:first-child) {
+  margin-left: 9px;
 }
 
-.m-time-list {
+.m-coming {
   display: flex;
-  margin-top: -5px;
-  margin-left: 7px;
 }
 
-.m-time-item__coming-date {
-  margin-top: 8px;
-  margin-left: 4px;
+.m-coming li {
+  padding-right: 6px;
 }
 
-.m-coming-slide--list {
-  display: flex;
-  margin-top: 32px;
-  margin-left: 140px;
-  padding-right: 32px;
-}
-
-.m-coming-slide--item {
-  text-align: center;
-}
-
-.m-contact--list {
-  text-align: center;
-}
-
-.m-contact--item__introduction {
-  margin-bottom: 30px;
-}
-
-.m-footer--item {
-  padding-bottom: 7px;
-}
-
-.m-copyright {
-  padding-bottom: 24px;
+.m-footer-links .a-footer-link {
+  padding-bottom: 8px;
 }

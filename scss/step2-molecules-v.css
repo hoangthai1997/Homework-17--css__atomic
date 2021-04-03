@@ -1,0 +1,56 @@
+.m-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-categories .a-category {
+  margin-left: 6px;
+}
+
+.m-bullets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-bullets .a-bullet {
+  margin-left: 10px;
+}
+
+.m-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-stars .a-star:not(:first-child) {
+  margin-left: 3px;
+}
+
+.m-days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-times {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-times li:not(:first-child) {
+  margin-left: 9px;
+}
+
+.m-footer-links .a-footer-link {
+  padding-bottom: 8px;
+}
+/*# sourceMappingURL=step2-molecules-v.css.map */
