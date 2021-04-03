@@ -184,13 +184,21 @@
 
 .a-star {
   display: inline-block;
-  font-size: 18px;
-  width: 18px;
   color: #fbbd61;
 }
 
 .a-star--disvoted {
   color: #d8d8d8;
+}
+
+.a-star--coming {
+  font-size: 14px;
+  width: 14px;
+}
+
+.a-star--new-in {
+  font-size: 18px;
+  width: 18px;
 }
 
 .a-schedule-title {
