@@ -1,0 +1,35 @@
+.m-nav {
+  display: flex;
+}
+
+.m-categories {
+  display: flex;
+  .a-category {
+    margin-left: 6px;
+  }
+}
+
+.m-bullets {
+  display: flex;
+  .a-bullet {
+    margin-left: 10px;
+  }
+}
+
+.m-stars {
+  display: flex;
+  li:not(:first-child) {
+    margin-left: 4px;
+  }
+}
+
+.m-days {
+  display: flex;
+}
+
+.m-times {
+  display: flex;
+  li:not(:first-child) {
+    margin-left: 9px;
+  }
+}

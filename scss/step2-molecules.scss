@@ -1,0 +1,59 @@
+.m-nav {
+  display: flex;
+}
+
+.m-categories {
+  display: flex;
+}
+
+.m-categories .a-category {
+  padding-right: 6px;
+}
+
+.m-bullets {
+  display: flex;
+}
+
+.m-bullets li {
+  margin-left: 10px;
+}
+
+.m-stars {
+  display: flex;
+}
+
+.m-stars li:not(:first-child) {
+  margin-left: 3px;
+}
+
+.m-dates {
+  display: flex;
+}
+
+.m-schedules {
+  display: flex;
+}
+
+.m-schedules li {
+  padding-right: 6px;
+}
+
+.m-times {
+  display: flex;
+}
+
+.m-times li:not(:first-child) {
+  margin-left: 9px;
+}
+
+.m-coming {
+  display: flex;
+}
+
+.m-coming li {
+  padding-right: 6px;
+}
+
+.m-footer-links .a-footer-link {
+  padding-bottom: 8px;
+}

@@ -1,0 +1,39 @@
+.m-nav {
+  display: flex;
+}
+
+.m-categories {
+  display: flex;
+}
+
+.m-categories .a-category {
+  margin-left: 6px;
+}
+
+.m-bullets {
+  display: flex;
+}
+
+.m-bullets .a-bullet {
+  margin-left: 10px;
+}
+
+.m-stars {
+  display: flex;
+}
+
+.m-stars li:not(:first-child) {
+  margin-left: 4px;
+}
+
+.m-days {
+  display: flex;
+}
+
+.m-times {
+  display: flex;
+}
+
+.m-times li:not(:first-child) {
+  margin-left: 9px;
+}
