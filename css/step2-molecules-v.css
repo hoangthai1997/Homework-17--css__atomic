@@ -1,12 +1,8 @@
 .m-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .m-categories {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -15,8 +11,6 @@
 }
 
 .m-bullets {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -25,8 +19,6 @@
 }
 
 .m-stars {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -35,18 +27,13 @@
 }
 
 .m-days {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .m-times {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .m-times li:not(:first-child) {
   margin-left: 9px;
 }
-/*# sourceMappingURL=step2-molecules-v.css.map */
