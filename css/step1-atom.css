@@ -184,13 +184,21 @@
 
 .a-star {
   display: inline-block;
-  font-size: 18px;
-  width: 18px;
   color: #fbbd61;
 }
 
 .a-star--disvoted {
   color: #d8d8d8;
+}
+
+.a-star--coming {
+  font-size: 14px;
+  width: 14px;
+}
+
+.a-star--new-in {
+  font-size: 18px;
+  width: 18px;
 }
 
 .a-schedule-title {
@@ -269,6 +277,11 @@
   display: inline-block;
   opacity: 0.75;
   color: #fff;
+}
+
+.a-date--coming {
+  text-align: center;
+  opacity: 0.5;
 }
 
 .a-description {
@@ -420,13 +433,6 @@ hr {
   line-height: 1.4em;
   font-family: inherit;
   font-weight: 500;
-}
-
-.a-coming-release {
-  text-align: center;
-  font-size: 14px;
-  opacity: 0.5;
-  color: #fff;
 }
 
 .a-contact-head {

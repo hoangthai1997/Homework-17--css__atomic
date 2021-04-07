@@ -18,8 +18,8 @@
 
 .m-stars {
   display: flex;
-  .a-star:not(:first-child) {
-    margin-left: 3px;
+  li:not(:first-child) {
+    margin-left: 4px;
   }
 }
 
@@ -32,8 +32,4 @@
   li:not(:first-child) {
     margin-left: 9px;
   }
-}
-
-.m-footer-links .a-footer-link {
-  padding-bottom: 8px;
 }

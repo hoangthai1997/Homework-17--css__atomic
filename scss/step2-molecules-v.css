@@ -30,8 +30,8 @@
   display: flex;
 }
 
-.m-stars .a-star:not(:first-child) {
-  margin-left: 3px;
+.m-stars li:not(:first-child) {
+  margin-left: 4px;
 }
 
 .m-days {
@@ -48,9 +48,5 @@
 
 .m-times li:not(:first-child) {
   margin-left: 9px;
-}
-
-.m-footer-links .a-footer-link {
-  padding-bottom: 8px;
 }
 /*# sourceMappingURL=step2-molecules-v.css.map */
