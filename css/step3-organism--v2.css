@@ -1,0 +1,58 @@
+.o-nav {
+  margin-top: -45px;
+  position: absolute;
+  top: 13%;
+  right: 10%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 0;
+  list-style: none;
+}
+
+/* .o-slide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  margin: auto;
+  transform: none;
+  align-items: center;
+  justify-content: center;
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+} */
+.o-new-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.o-new-item {
+  margin-right: -18px;
+}
+
+.o-showtimes-list {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.o-showtimes-item {
+  display: flex;
+  margin-top: 48px;
+}
+
+.o-categories {
+  margin-left: 32px;
+}
+
+.o-coming-movie {
+  position: relative;
+  z-index: 1;
+  width: 41.66666667%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}

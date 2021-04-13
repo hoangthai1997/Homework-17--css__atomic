@@ -40,10 +40,6 @@
   top: 46.5px;
 }
 
-.a-carousel-title {
-  display: none;
-}
-
 .a-category {
   font-size: 14px;
   letter-spacing: 2px;
@@ -52,31 +48,27 @@
   line-height: 1.42857143;
 }
 
-.a-slider-title {
-  font-size: 52px;
-  font-weight: 300;
-  color: #fff;
-  line-height: 1.4;
-  letter-spacing: 3px;
-}
-
-.a-slider-content {
-  font-size: 18px;
-  color: #fff;
-  line-height: 1.3;
-}
-
-.a-slider-rated {
+.a-rate {
+  font-size: 13px;
   display: inline-block;
   text-align: center;
-  font-size: 13px;
   font-weight: bold;
-  line-height: 48px;
   color: #fff;
-  border: solid 2px #fff;
   border-radius: 50%;
+}
+
+.a-rate--slider {
+  line-height: 48px;
+  border: solid 2px #fff;
   width: 43px;
   height: 43px;
+}
+
+.a-rate--schedule {
+  line-height: 33px;
+  width: 33px;
+  height: 33px;
+  background: #4a4a4a;
 }
 
 .a-slider-button {
@@ -125,6 +117,21 @@
   display: inline-flex;
 }
 
+.a-icon--coming {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  line-height: 75px;
+  width: 80px;
+  height: 80px;
+  transition: all 300ms ease-in-out;
+  color: #fff;
+  border: 2px solid #ec7532;
+  border-radius: 50%;
+  font-family: "Material Icons";
+  cursor: pointer;
+}
+
 .a-bullet--active {
   background-color: #fff;
 }
@@ -166,7 +173,10 @@
   top: 18px;
 }
 
-.a-new-picture {
+.a-picture {
+}
+
+.a-picture--new {
   display: block;
   transition: 0.5s ease-in-out;
   width: auto;
@@ -174,31 +184,24 @@
   border-radius: 4%;
 }
 
-.a-new-name {
-  font-size: 18px;
-  color: #4a4a4a;
-  line-height: 1.4em;
-  font-weight: 500;
-  font-family: inherit;
+.a-picture--schedule {
+  border-radius: 7%;
+  width: 165px;
+  height: 213.3px;
+  padding-left: 5px;
 }
 
-.a-star {
-  display: inline-block;
-  color: #fbbd61;
+.a-picture--coming {
+  width: auto;
+  height: 100%;
 }
 
-.a-star--disvoted {
-  color: #d8d8d8;
-}
-
-.a-star--coming {
-  font-size: 14px;
-  width: 14px;
-}
-
-.a-star--new-in {
-  font-size: 18px;
-  width: 18px;
+.a-picture--slider {
+  display: block;
+  border-radius: 10px;
+  width: 165px;
+  height: 213.3px;
+  cursor: pointer;
 }
 
 .a-schedule-title {
@@ -256,20 +259,31 @@
   height: 4px;
 }
 
-.a-schedule-picture {
-  border-radius: 7%;
-  width: 165px;
-  height: 213.3px;
-  padding-left: 5px;
+.a-name {
+  font-family: inherit;
+  line-height: 1.4em;
 }
 
-.a-schedule-name {
+.a-name--new {
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.a-name--schedule {
   font-size: 24px;
   font-weight: 300;
   color: #101010;
-  line-height: 1.4em;
-  font-family: inherit;
   letter-spacing: 1px;
+}
+
+.a-name--coming {
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  border-bottom-color: #333;
+  font-weight: 500;
 }
 
 .a-date {
@@ -291,22 +305,47 @@
   line-height: 22px;
 }
 
-.a-schedule-link {
+.a-description--slider {
+  font-size: 18px;
+  color: #fff;
+}
+
+.a-description--coming {
+  color: #fff;
+}
+
+.a-description--contact {
+  letter-spacing: 1px;
+  font-size: 23px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.a-link {
   color: #ec7532;
   font-size: 12px;
   text-transform: uppercase;
-  cursor: pointer;
   letter-spacing: 4px;
+  cursor: pointer;
 }
 
-.a-schedule-link::after {
+.a-link::after {
   font-family: "Material Icons";
   font-weight: 700;
   content: "";
 }
 
-.a-schedule-link:hover {
+.a-link--schedule:hover {
   color: black;
+}
+
+.a-link--coming {
+  transition: all 300ms ease-in-out;
+  background-color: transparent;
+}
+
+.a-link--coming:hover {
+  color: #fbbd61;
 }
 
 .a-schedule-subtitle {
@@ -362,7 +401,22 @@ hr {
   color: #fff;
 }
 
-.a-coming-title {
+.a-title {
+}
+
+.a-title--carousel {
+  display: none;
+}
+
+.a-title--slider {
+  font-size: 52px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.4;
+  letter-spacing: 3px;
+}
+
+.a-title--coming {
   font-size: 34px;
   color: #fff;
   border-bottom-color: #333;
@@ -372,88 +426,11 @@ hr {
   letter-spacing: 1px;
 }
 
-/* .a-icon--calendar {
-  content: "date_range";
-} */
-
-.a-coming-link {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #ec7532;
-  cursor: pointer;
-  transition: all 300ms ease-in-out;
-  background-color: transparent;
-  letter-spacing: 4px;
-}
-
-.a-coming-link:hover {
-  color: #fbbd61;
-}
-
-.a-coming-link::after {
-  font-family: "Material Icons";
-  font-weight: 700;
-  content: "";
-}
-
-.a-coming-picture {
-  width: auto;
-  height: 100%;
-}
-
-.a-coming-play {
-  display: block;
-  text-align: center;
-  font-size: 50px;
-  line-height: 75px;
-  width: 80px;
-  height: 80px;
-  transition: all 300ms ease-in-out;
-  color: #fff;
-  border: 2px solid #ec7532;
-  border-radius: 50%;
-  font-family: "Material Icons";
-  cursor: pointer;
-}
-
-.a-coming-slider {
-  display: block;
-  border-radius: 10px;
-  width: 165px;
-  height: 213.3px;
-  cursor: pointer;
-}
-
-.a-coming-name {
-  font-size: 16px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: #fff;
-  border-bottom-color: #333;
-  line-height: 1.4em;
-  font-family: inherit;
-  font-weight: 500;
-}
-
-.a-contact-head {
+.a-title--contact {
   display: none;
 }
 
-.a-contact-introduction {
-  letter-spacing: 1px;
-  font-size: 23px;
-  font-weight: 300;
-  color: #4a4a4a;
-}
-
-.a-contact-phone {
-  letter-spacing: 1px;
-  font-size: 46px;
-  font-weight: 400;
-  color: #ec7532;
-}
-
-.a-footer-head {
+.a-title--footer {
   letter-spacing: 2px;
   font-size: 16px;
   text-transform: uppercase;
@@ -462,6 +439,17 @@ hr {
   line-height: 1.4em;
   padding: 0 0 20px;
   font-family: inherit;
+}
+
+/* .a-icon--calendar {
+  content: "date_range";
+} */
+
+.a-phone {
+  letter-spacing: 1px;
+  font-size: 46px;
+  font-weight: 400;
+  color: #ec7532;
 }
 
 .a-footer-link {
@@ -491,14 +479,14 @@ hr {
   opacity: 0.13;
 }
 
-.a-footer-copyright {
+.a-copyright {
   font-size: 14px;
   font-weight: 500;
   color: #fff;
   font-family: "roboto condensed", "sans-serif";
 }
 
-.a-footer-copyright--link {
+.a-copyright--link {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -508,6 +496,6 @@ hr {
   font-family: "roboto condensed", "sans-serif";
 }
 
-.a-footer-copyright--link:hover {
+.a-copyright--link:hover {
   color: #ec7532;
 }

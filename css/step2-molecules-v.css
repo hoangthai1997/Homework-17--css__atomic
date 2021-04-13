@@ -22,8 +22,24 @@
   display: flex;
 }
 
-.m-stars li:not(:first-child) {
+.m-stars li {
   margin-left: 4px;
+  color: #fbbd61;
+  display: inline-block;
+}
+
+.m-stars--new-in .a-star {
+  font-size: 18px;
+  width: 18px;
+}
+
+.m-stars--new-in .a-star--disvoted {
+  color: #d8d8d8;
+}
+
+.m-stars--coming .a-star:not(:first-child) {
+  font-size: 14px;
+  width: 14px;
 }
 
 .m-days {
