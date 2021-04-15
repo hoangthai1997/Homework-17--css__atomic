@@ -2,6 +2,18 @@
   display: flex;
 }
 
+.m-slider {
+}
+
+.m-slider--carousel {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 6.5px;
+  .a-slider-button {
+    margin-left: 12px;
+  }
+}
+
 .m-categories {
   display: flex;
   .a-category {
@@ -32,6 +44,46 @@
   }
   .a-star--disvoted {
     color: #d8d8d8;
+  }
+}
+
+.m-schedule {
+  display: flex;
+  article {
+    .m-categories {
+      margin-left: 21px;
+    }
+    .a-category--schedule {
+      margin-left: 27px;
+    }
+    .a-name--schedule {
+      margin-left: 28px;
+      margin-top: 2px;
+    }
+    .a-description--schedule {
+      margin-left: 27px;
+      margin-top: -2px;
+      margin-bottom: 23px;
+    }
+    .a-link--schedule {
+      margin-left: 28px;
+    }
+    .m-container--schedule {
+      display: flex;
+      margin-left: 36px;
+      margin-top: 33px;
+      .a-schedule-subtitle {
+        margin-left: -8px;
+        margin-top: 10px;
+        .a-icon--clock {
+          margin-top: 1px;
+        }
+      }
+      .m-times {
+        margin-left: 9px;
+        margin-top: 2px;
+      }
+    }
   }
 }
 

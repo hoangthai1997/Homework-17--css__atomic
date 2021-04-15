@@ -2,9 +2,40 @@
 }
 
 .o-carousel {
+  display: none;
+}
+
+.o-carousel--active {
+  display: block;
 }
 
 .o-schedule {
+  .a-title .a-title--slider {
+    margin-left: 6px;
+  }
+}
+
+.o-slider {
+}
+
+.o-slider--new-in {
+  display: flex;
+  li {
+    .m-new-in {
+      .a-picture--new {
+        margin-left: 30px;
+      }
+      .a-name--new {
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 21px;
+      }
+      .m-stars--new-in {
+        margin-left: 105px;
+        margin-top: 13px;
+      }
+    }
+  }
 }
 
 .o-coming {

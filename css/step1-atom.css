@@ -298,13 +298,14 @@
 .a-description {
   font-size: 16px;
   color: #717171;
-  padding-top: 8px;
+  padding-top: 12px;
   line-height: 22px;
 }
 
 .a-description--slider {
   font-size: 18px;
   color: #fff;
+  padding-left: 7px;
 }
 
 .a-description--coming {
@@ -408,6 +409,7 @@ hr {
   color: #fff;
   line-height: 1.4;
   letter-spacing: 3px;
+  padding-left: 6px;
 }
 
 .a-title--coming {

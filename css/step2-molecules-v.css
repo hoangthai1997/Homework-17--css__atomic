@@ -2,6 +2,16 @@
   display: flex;
 }
 
+.m-slider--carousel {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 6.5px;
+}
+
+.m-slider--carousel .a-slider-button {
+  margin-left: 12px;
+}
+
 .m-categories {
   display: flex;
 }
@@ -35,6 +45,53 @@
 
 .m-stars--new-in .a-star--disvoted {
   color: #d8d8d8;
+}
+
+.m-schedule {
+  display: flex;
+}
+
+.m-schedule article .m-categories {
+  margin-left: 21px;
+}
+
+.m-schedule article .a-category--schedule {
+  margin-left: 27px;
+}
+
+.m-schedule article .a-name--schedule {
+  margin-left: 28px;
+  margin-top: 2px;
+}
+
+.m-schedule article .a-description--schedule {
+  margin-left: 27px;
+  margin-top: -2px;
+  margin-bottom: 23px;
+}
+
+.m-schedule article .a-link--schedule {
+  margin-left: 28px;
+}
+
+.m-schedule article .m-container--schedule {
+  display: flex;
+  margin-left: 36px;
+  margin-top: 33px;
+}
+
+.m-schedule article .m-container--schedule .a-schedule-subtitle {
+  margin-left: -8px;
+  margin-top: 10px;
+}
+
+.m-schedule article .m-container--schedule .a-schedule-subtitle .a-icon--clock {
+  margin-top: 1px;
+}
+
+.m-schedule article .m-container--schedule .m-times {
+  margin-left: 9px;
+  margin-top: 2px;
 }
 
 .m-stars--coming .a-star:not(:first-child) {

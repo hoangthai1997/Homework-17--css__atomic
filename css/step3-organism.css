@@ -1,1 +1,30 @@
-/* No CSS */
+.o-carousel {
+  display: none;
+}
+
+.o-carousel--active {
+  display: block;
+}
+
+.o-schedule .a-title .a-title--slider {
+  margin-left: 6px;
+}
+
+.o-slider--new-in {
+  display: flex;
+}
+
+.o-slider--new-in li .m-new-in .a-picture--new {
+  margin-left: 30px;
+}
+
+.o-slider--new-in li .m-new-in .a-name--new {
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 21px;
+}
+
+.o-slider--new-in li .m-new-in .m-stars--new-in {
+  margin-left: 105px;
+  margin-top: 13px;
+}
