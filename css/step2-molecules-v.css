@@ -94,6 +94,14 @@
   margin-top: 2px;
 }
 
+.m-schedule article .m-container--schedule .m-container--rating {
+  margin-left: 451px;
+}
+
+.m-schedule article .m-container--schedule .m-container--rating .a-rate--schedule {
+  margin-left: 6px;
+}
+
 .m-stars--coming .a-star:not(:first-child) {
   font-size: 14px;
   width: 14px;
