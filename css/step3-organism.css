@@ -10,6 +10,14 @@
   margin-left: 6px;
 }
 
+.o-schedule--movie {
+  display: none;
+}
+
+.o-schedule--movie-active {
+  display: block;
+}
+
 .o-slider--new-in {
   display: flex;
 }

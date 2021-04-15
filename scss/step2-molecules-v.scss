@@ -94,13 +94,29 @@
 }
 
 .m-stars--coming {
-  .a-star:not(:first-child) {
+  display: flex;
+  margin-left: 1px;
+  margin-top: 6px;
+  .a-star {
     font-size: 14px;
     width: 14px;
+  }
+  .a-star--disvoted {
+    color: #d8d8d8;
+  }
+  .m-date {
+    margin-left: 16px;
+    margin-top: -2px;
   }
 }
 
 .m-coming {
+}
+
+.m-coming--movie {
+  .a-title--coming {
+    margin-left: 7px;
+  }
 }
 
 .m-days {
