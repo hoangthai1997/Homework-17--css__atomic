@@ -95,7 +95,7 @@
 
 .m-stars--coming {
   display: flex;
-  margin-left: 1px;
+  margin-left: 2.5px;
   margin-top: 6px;
   .a-star {
     font-size: 14px;
@@ -105,8 +105,8 @@
     color: #d8d8d8;
   }
   .m-date {
-    margin-left: 16px;
-    margin-top: -2px;
+    margin-left: 15px;
+    margin-top: -3px;
   }
 }
 
@@ -114,8 +114,70 @@
 }
 
 .m-coming--movie {
+  display: none;
+  position: relative;
   .a-title--coming {
     margin-left: 7px;
+  }
+  .a-description--coming {
+    margin-left: 6px;
+    margin-top: 8px;
+    margin-bottom: 68px;
+  }
+  .a-link--coming {
+    margin-left: 7px;
+  }
+  .m-picture--coming {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    .a-picture--coming {
+      margin-left: 225px;
+    }
+    .a-icon--coming {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-left: 110px;
+      margin-top: 1px;
+    }
+  }
+}
+
+.m-coming--movie-active {
+  display: block;
+  position: relative;
+  .a-title--coming {
+    margin-left: 7px;
+  }
+  .a-description--coming {
+    margin-left: 6px;
+    margin-top: 8px;
+    margin-bottom: 68px;
+  }
+  .a-link--coming {
+    margin-left: 7px;
+  }
+  .m-picture--coming {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    .a-picture--coming {
+      margin-left: 225px;
+    }
+    .a-icon--coming {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-left: 110px;
+      margin-top: 1px;
+    }
   }
 }
 

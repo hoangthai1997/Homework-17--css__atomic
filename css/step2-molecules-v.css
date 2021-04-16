@@ -104,7 +104,7 @@
 
 .m-stars--coming {
   display: flex;
-  margin-left: 1px;
+  margin-left: 2.5px;
   margin-top: 6px;
 }
 
@@ -118,12 +118,88 @@
 }
 
 .m-stars--coming .m-date {
-  margin-left: 16px;
-  margin-top: -2px;
+  margin-left: 15px;
+  margin-top: -3px;
+}
+
+.m-coming--movie {
+  display: none;
+  position: relative;
 }
 
 .m-coming--movie .a-title--coming {
   margin-left: 7px;
+}
+
+.m-coming--movie .a-description--coming {
+  margin-left: 6px;
+  margin-top: 8px;
+  margin-bottom: 68px;
+}
+
+.m-coming--movie .a-link--coming {
+  margin-left: 7px;
+}
+
+.m-coming--movie .m-picture--coming {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.m-coming--movie .m-picture--coming .a-picture--coming {
+  margin-left: 225px;
+}
+
+.m-coming--movie .m-picture--coming .a-icon--coming {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 110px;
+  margin-top: 1px;
+}
+
+.m-coming--movie-active {
+  display: block;
+  position: relative;
+}
+
+.m-coming--movie-active .a-title--coming {
+  margin-left: 7px;
+}
+
+.m-coming--movie-active .a-description--coming {
+  margin-left: 6px;
+  margin-top: 8px;
+  margin-bottom: 68px;
+}
+
+.m-coming--movie-active .a-link--coming {
+  margin-left: 7px;
+}
+
+.m-coming--movie-active .m-picture--coming {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.m-coming--movie-active .m-picture--coming .a-picture--coming {
+  margin-left: 225px;
+}
+
+.m-coming--movie-active .m-picture--coming .a-icon--coming {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 110px;
+  margin-top: 1px;
 }
 
 .m-days {
