@@ -46,11 +46,46 @@
   }
 }
 
+.o-slider--coming {
+  display: flex;
+  margin-top: 67px;
+  .m-coming--slider {
+    display: block;
+    .a-picture--slider {
+      margin-left: 26px;
+    }
+    .a-name--coming {
+      margin-left: 47px;
+      margin-top: 18px;
+    }
+    .a-date--coming {
+      margin-left: 50px;
+      margin-top: 5px;
+    }
+  }
+  .m-coming--slider-active {
+    display: none;
+  }
+}
+
 .o-coming {
 }
 
 .o-contact {
+  text-align: center;
+  .a-description--contact {
+    margin-bottom: 25px;
+  }
+  .a-phone {
+    margin-left: 1px;
+  }
 }
 
 .o-footer {
+  .m-footer {
+    .a-footer-link {
+      display: block;
+      padding-top: 7.5px;
+    }
+  }
 }
