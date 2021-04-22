@@ -110,10 +110,7 @@
   }
 }
 
-.m-coming {
-}
-
-.m-coming--movie {
+.m-coming-slide {
   display: none;
   position: relative;
   .a-title--coming {
@@ -128,57 +125,22 @@
     margin-left: 7px;
   }
   .m-picture--coming {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
+    position: relative;
+    margin-left: 100px;
+    width: 555px;
     .a-picture--coming {
-      margin-left: 225px;
     }
     .a-icon--coming {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      margin-left: 110px;
-      margin-top: 1px;
     }
   }
 }
 
-.m-coming--movie-active {
-  display: block;
-  position: relative;
-  .a-title--coming {
-    margin-left: 7px;
-  }
-  .a-description--coming {
-    margin-left: 6px;
-    margin-top: 8px;
-    margin-bottom: 68px;
-  }
-  .a-link--coming {
-    margin-left: 7px;
-  }
-  .m-picture--coming {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    .a-picture--coming {
-      margin-left: 225px;
-    }
-    .a-icon--coming {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      margin-left: 110px;
-      margin-top: 1px;
-    }
-  }
+.m-coming-slide--active {
+  display: flex;
 }
 
 .m-days {
