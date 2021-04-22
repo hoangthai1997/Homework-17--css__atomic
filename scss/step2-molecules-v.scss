@@ -49,6 +49,8 @@
 
 .m-schedule {
   display: flex;
+  width: 165px;
+  height: 213.3px;
   article {
     .m-categories {
       margin-left: 21px;
@@ -70,24 +72,21 @@
     }
     .m-container--schedule {
       display: flex;
-      margin-left: 36px;
-      margin-top: 33px;
+      margin-left: 74px;
+      margin-top: 32px;
       .a-schedule-subtitle {
-        margin-left: -8px;
-        margin-top: 10px;
-        .a-icon--clock {
-          margin-top: 1px;
-        }
+        display: flex;
       }
-      .m-times {
-        margin-left: 9px;
-        margin-top: 2px;
-      }
-      .m-container--rating {
-        margin-left: 451px;
-        .a-rate--schedule {
-          margin-left: 6px;
-        }
+    }
+    .m-times {
+      margin-left: 9px;
+      margin-top: 2px;
+    }
+    .m-container--rating {
+      display: flex;
+      margin-left: 451px;
+      .a-rate--schedule {
+        margin-left: 6px;
       }
     }
   }
@@ -110,9 +109,12 @@
   }
 }
 
-.m-coming-slide {
+.m-slider {
   display: none;
   position: relative;
+  .m-coming {
+    display: flex;
+  }
   .a-title--coming {
     margin-left: 7px;
   }
@@ -139,7 +141,7 @@
   }
 }
 
-.m-coming-slide--active {
+.m-slider--active {
   display: flex;
 }
 

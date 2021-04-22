@@ -49,6 +49,8 @@
 
 .m-schedule {
   display: flex;
+  width: 165px;
+  height: 213.3px;
 }
 
 .m-schedule article .m-categories {
@@ -76,29 +78,25 @@
 
 .m-schedule article .m-container--schedule {
   display: flex;
-  margin-left: 36px;
-  margin-top: 33px;
+  margin-left: 74px;
+  margin-top: 32px;
 }
 
 .m-schedule article .m-container--schedule .a-schedule-subtitle {
-  margin-left: -8px;
-  margin-top: 10px;
+  display: flex;
 }
 
-.m-schedule article .m-container--schedule .a-schedule-subtitle .a-icon--clock {
-  margin-top: 1px;
-}
-
-.m-schedule article .m-container--schedule .m-times {
+.m-schedule article .m-times {
   margin-left: 9px;
   margin-top: 2px;
 }
 
-.m-schedule article .m-container--schedule .m-container--rating {
+.m-schedule article .m-container--rating {
+  display: flex;
   margin-left: 451px;
 }
 
-.m-schedule article .m-container--schedule .m-container--rating .a-rate--schedule {
+.m-schedule article .m-container--rating .a-rate--schedule {
   margin-left: 6px;
 }
 
@@ -122,39 +120,43 @@
   margin-top: -3px;
 }
 
-.m-coming-slide {
+.m-slider {
   display: none;
   position: relative;
 }
 
-.m-coming-slide .a-title--coming {
+.m-slider .m-coming {
+  display: flex;
+}
+
+.m-slider .a-title--coming {
   margin-left: 7px;
 }
 
-.m-coming-slide .a-description--coming {
+.m-slider .a-description--coming {
   margin-left: 6px;
   margin-top: 8px;
   margin-bottom: 68px;
 }
 
-.m-coming-slide .a-link--coming {
+.m-slider .a-link--coming {
   margin-left: 7px;
 }
 
-.m-coming-slide .m-picture--coming {
+.m-slider .m-picture--coming {
   position: relative;
   margin-left: 100px;
   width: 555px;
 }
 
-.m-coming-slide .m-picture--coming .a-icon--coming {
+.m-slider .m-picture--coming .a-icon--coming {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.m-coming-slide--active {
+.m-slider--active {
   display: flex;
 }
 
