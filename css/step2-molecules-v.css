@@ -78,7 +78,7 @@
 
 .m-schedule article .m-container--schedule {
   display: flex;
-  margin-left: 74px;
+  margin-left: 29px;
   margin-top: 32px;
 }
 
@@ -117,7 +117,7 @@
 
 .m-stars--coming .m-date {
   margin-left: 15px;
-  margin-top: -3px;
+  margin-top: -1px;
 }
 
 .m-slider {
