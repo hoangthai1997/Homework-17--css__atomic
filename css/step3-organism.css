@@ -10,29 +10,29 @@
   margin-left: 6px;
 }
 
-.o-schedule-movie {
+.o-schedule-movies {
   display: none;
 }
 
-.o-schedule-movie--active {
+.o-schedule-movies--active {
   display: block;
 }
 
-.o-slider--new-in {
+.o-sliders--new-in {
   display: flex;
 }
 
-.o-slider--new-in li .m-new-in {
+.o-sliders--new-in li .m-new-in {
   width: 263px;
   margin-left: 29px;
 }
 
-.o-slider--new-in li .m-new-in .a-name--new {
+.o-sliders--new-in li .m-new-in .a-name--new {
   text-align: center;
   margin-top: 21px;
 }
 
-.o-slider--new-in li .m-new-in .m-stars--new-in {
+.o-sliders--new-in li .m-new-in .m-stars--new-in {
   margin-left: 74px;
   margin-top: 13px;
 }

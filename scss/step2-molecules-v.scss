@@ -47,47 +47,67 @@
   }
 }
 
-.m-schedule {
-  display: flex;
-  width: 165px;
-  height: 213.3px;
-  article {
-    .m-categories {
-      margin-left: 21px;
-    }
-    .a-category--schedule {
-      margin-left: 27px;
-    }
-    .a-name--schedule {
-      margin-left: 28px;
-      margin-top: 2px;
-    }
-    .a-description--schedule {
-      margin-left: 27px;
-      margin-top: -2px;
-      margin-bottom: 23px;
-    }
-    .a-link--schedule {
-      margin-left: 28px;
-    }
-    .m-container--schedule {
+.m-schedule-movie {
+  // display: flex;
+  // width: 165px;
+  // height: 213.3px;
+  position: relative;
+  padding-left: 210px;
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  .m-categories {
+  }
+  .a-category--schedule {
+  }
+  .a-name--schedule {
+    margin-top: 2px;
+  }
+  .a-picture--schedule {
+    width: 165px;
+    padding-left: 15px;
+    padding-right: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+  }
+  .a-description--schedule {
+    margin-top: -2px;
+    margin-bottom: 23px;
+  }
+  .a-link--schedule {
+  }
+  .m-container--schedule {
+    display: flex;
+    margin-top: 32px;
+    .a-schedule-subtitle {
       display: flex;
-      margin-left: 29px;
-      margin-top: 32px;
-      .a-schedule-subtitle {
-        display: flex;
+      align-items: center;
+      margin-top: 4px;
+      padding-left: 4px;
+      .a-icon--clock {
+        margin-left: -5px;
       }
     }
-    .m-times {
-      margin-left: 9px;
-      margin-top: 2px;
+  }
+  .m-times {
+    margin-left: 9px;
+    margin-top: 2px;
+  }
+  .m-container--rating {
+    display: flex;
+    margin-left: 451px;
+    .a-minutes {
+      align-items: center;
+      margin-top: 13px;
+      margin-left: 2px;
     }
-    .m-container--rating {
-      display: flex;
-      margin-left: 451px;
-      .a-rate--schedule {
-        margin-left: 6px;
-      }
+    .a-rate--schedule {
+      margin-left: 10px;
+      margin-top: 1px;
     }
   }
 }

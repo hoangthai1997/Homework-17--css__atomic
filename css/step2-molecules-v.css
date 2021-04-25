@@ -47,57 +47,71 @@
   color: #d8d8d8;
 }
 
-.m-schedule {
-  display: flex;
-  width: 165px;
-  height: 213.3px;
+.m-schedule-movie {
+  position: relative;
+  padding-left: 210px;
 }
 
-.m-schedule article .m-categories {
-  margin-left: 21px;
+.m-schedule-movie::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
-.m-schedule article .a-category--schedule {
-  margin-left: 27px;
-}
-
-.m-schedule article .a-name--schedule {
-  margin-left: 28px;
+.m-schedule-movie .a-name--schedule {
   margin-top: 2px;
 }
 
-.m-schedule article .a-description--schedule {
-  margin-left: 27px;
+.m-schedule-movie .a-picture--schedule {
+  width: 165px;
+  padding-left: 15px;
+  padding-right: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.m-schedule-movie .a-description--schedule {
   margin-top: -2px;
   margin-bottom: 23px;
 }
 
-.m-schedule article .a-link--schedule {
-  margin-left: 28px;
-}
-
-.m-schedule article .m-container--schedule {
+.m-schedule-movie .m-container--schedule {
   display: flex;
-  margin-left: 29px;
   margin-top: 32px;
 }
 
-.m-schedule article .m-container--schedule .a-schedule-subtitle {
+.m-schedule-movie .m-container--schedule .a-schedule-subtitle {
   display: flex;
+  align-items: center;
+  margin-top: 4px;
+  padding-left: 4px;
 }
 
-.m-schedule article .m-times {
+.m-schedule-movie .m-container--schedule .a-schedule-subtitle .a-icon--clock {
+  margin-left: -5px;
+}
+
+.m-schedule-movie .m-times {
   margin-left: 9px;
   margin-top: 2px;
 }
 
-.m-schedule article .m-container--rating {
+.m-schedule-movie .m-container--rating {
   display: flex;
   margin-left: 451px;
 }
 
-.m-schedule article .m-container--rating .a-rate--schedule {
-  margin-left: 6px;
+.m-schedule-movie .m-container--rating .a-minutes {
+  align-items: center;
+  margin-top: 13px;
+  margin-left: 2px;
+}
+
+.m-schedule-movie .m-container--rating .a-rate--schedule {
+  margin-left: 10px;
+  margin-top: 1px;
 }
 
 .m-stars--coming {
