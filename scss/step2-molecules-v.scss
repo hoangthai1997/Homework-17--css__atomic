@@ -47,7 +47,7 @@
   }
 }
 
-.m-schedule-movie {
+.m-schedule {
   // display: flex;
   // width: 165px;
   // height: 213.3px;
@@ -62,8 +62,14 @@
   }
   .a-category--schedule {
   }
-  .a-name--schedule {
+  .a-name {
     margin-top: 2px;
+    font-family: inherit;
+    line-height: 1.4em;
+    font-size: 24px;
+    font-weight: 300;
+    color: #101010;
+    letter-spacing: 1px;
   }
   .a-picture--schedule {
     width: 165px;

@@ -27,9 +27,14 @@
   margin-left: 29px;
 }
 
-.o-sliders--new-in li .m-new-in .a-name--new {
+.o-sliders--new-in li .m-new-in .a-name--specials {
   text-align: center;
   margin-top: 21px;
+  font-family: inherit;
+  line-height: 1.4em;
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 500;
 }
 
 .o-sliders--new-in li .m-new-in .m-stars--new-in {
@@ -42,20 +47,28 @@
   margin-top: 67px;
 }
 
-.o-slider--coming .m-coming--slider {
+.o-slider--coming .m-coming-movie {
   display: block;
 }
 
-.o-slider--coming .m-coming--slider .a-picture--slider {
+.o-slider--coming .m-coming-movie .a-picture--slider {
   margin-left: 26px;
 }
 
-.o-slider--coming .m-coming--slider .a-name--coming {
+.o-slider--coming .m-coming-movie .a-name--specials {
   margin-left: 47px;
   margin-top: 18px;
+  font-family: inherit;
+  line-height: 1.4em;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  border-bottom-color: #333;
+  font-weight: 500;
 }
 
-.o-slider--coming .m-coming--slider .a-date--coming {
+.o-slider--coming .m-coming-movie .a-date--coming {
   margin-left: 50px;
   margin-top: 5px;
 }
