@@ -32,6 +32,19 @@
   margin-left: 6.5px;
 }
 
+.m-slider--carousel .a-rate {
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 48px;
+  border: solid 2px #fff;
+  width: 43px;
+  height: 43px;
+}
+
 .m-slider--carousel .a-slider-button {
   margin-left: 12px;
 }
@@ -139,9 +152,19 @@
   margin-left: 2px;
 }
 
-.m-schedule .m-container--rating .a-rate--schedule {
+.m-schedule .m-container--rating .a-rate {
   margin-left: 10px;
   margin-top: 1px;
+  line-height: 33px;
+  width: 33px;
+  height: 33px;
+  background: #4a4a4a;
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 1px;
 }
 
 .m-stars--coming {
