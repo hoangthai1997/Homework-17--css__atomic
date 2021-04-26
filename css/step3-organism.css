@@ -1,11 +1,3 @@
-.m-key-visual {
-  display: none;
-}
-
-.m-key-visual--active {
-  display: block;
-}
-
 .o-schedule .a-title .a-title--slider {
   margin-left: 6px;
 }
@@ -27,6 +19,14 @@
   margin-left: 29px;
 }
 
+.o-sliders--new-in li .m-new-in .a-picture--specials {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease-in-out;
+  border-radius: 7px;
+}
+
 .o-sliders--new-in li .m-new-in .a-name--specials {
   text-align: center;
   margin-top: 21px;
@@ -42,20 +42,23 @@
   margin-top: 13px;
 }
 
-.o-slider--coming {
+.o-slider-movie {
   display: flex;
-  margin-top: 67px;
 }
 
-.o-slider--coming .m-coming-movie {
+.o-slider-movie .m-coming-movie {
+  width: 165px;
+  margin-left: 28px;
+}
+
+.o-slider-movie .m-coming-movie .a-picture--specials {
   display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 165px;
 }
 
-.o-slider--coming .m-coming-movie .a-picture--slider {
-  margin-left: 26px;
-}
-
-.o-slider--coming .m-coming-movie .a-name--specials {
+.o-slider-movie .m-coming-movie .a-name--specials {
   margin-left: 47px;
   margin-top: 18px;
   font-family: inherit;
@@ -68,30 +71,6 @@
   font-weight: 500;
 }
 
-.o-slider--coming .m-coming-movie .a-date--coming {
-  margin-left: 50px;
-  margin-top: 5px;
-}
-
-.o-slider--coming .m-coming--slider-active {
-  display: none;
-}
-
-.o-slider-movie {
-  display: flex;
-}
-
-.o-slider-movie .m-coming-movie {
-  width: 165px;
-  margin-left: 28px;
-}
-
-.o-slider-movie .m-coming-movie .a-name--coming {
-  text-align: center;
-  margin-left: 17px;
-  margin-top: 15px;
-}
-
 .o-slider-movie .m-coming-movie .a-date--coming {
   text-align: center;
   margin-left: 21px;
@@ -102,12 +81,27 @@
   text-align: center;
 }
 
-.o-contact .a-description--contact {
+.o-contact .a-description {
   margin-bottom: 25px;
+  letter-spacing: 1px;
+  font-size: 23px;
+  font-weight: 300;
+  color: #4a4a4a;
 }
 
 .o-contact .a-phone {
   margin-left: 1px;
+}
+
+.o-footer .a-title {
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ec7532;
+  font-weight: 500;
+  line-height: 1.4em;
+  padding: 0 0 20px;
+  font-family: inherit;
 }
 
 .o-footer--links .a-footer-link {
