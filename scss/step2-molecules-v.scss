@@ -54,7 +54,7 @@
 .m-categories {
   display: flex;
   .a-category {
-    margin-left: 6px;
+    margin-left: 5.6px;
   }
 }
 
@@ -96,6 +96,7 @@
     clear: both;
   }
   .a-name {
+    margin-left: 6px;
     margin-top: 2px;
     font-family: inherit;
     line-height: 1.4em;
@@ -113,9 +114,13 @@
     left: 0;
     border-radius: 10px;
   }
-  .a-description--schedule {
-    margin-top: -2px;
-    margin-bottom: 23px;
+  .a-description--specials {
+    margin-top: 12px;
+    margin-bottom: 26px;
+    margin-left: 6px;
+  }
+  .a-link {
+    margin-left: 6px;
   }
   .m-container--schedule {
     display: flex;
@@ -124,7 +129,7 @@
       display: flex;
       align-items: center;
       margin-top: 4px;
-      padding-left: 4px;
+      padding-left: 15px;
       .a-icon--specials {
         margin-left: -5px;
         font-size: 13px;
