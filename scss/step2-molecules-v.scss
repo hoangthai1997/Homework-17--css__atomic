@@ -42,6 +42,13 @@
   .a-slider-button {
     margin-left: 12px;
   }
+  .a-icon--specials {
+    font-family: "Material Icons";
+    font-size: 24px;
+    line-height: 1;
+    color: #fff;
+    display: inline-flex;
+  }
 }
 
 .m-categories {
@@ -118,8 +125,12 @@
       align-items: center;
       margin-top: 4px;
       padding-left: 4px;
-      .a-icon--clock {
+      .a-icon--specials {
         margin-left: -5px;
+        font-size: 13px;
+        display: inline-flex;
+        font-family: "Material Icons";
+        line-height: 1;
       }
     }
   }
@@ -147,7 +158,7 @@
       text-align: center;
       font-weight: bold;
       color: #fff;
-      border-radius: 1px;
+      border-radius: 16px;
     }
   }
 }
@@ -166,6 +177,12 @@
   .m-date {
     margin-left: 15px;
     margin-top: -1px;
+    .a-icon--specials {
+      font-size: 14px;
+      display: inline-flex;
+      font-family: "Material Icons";
+      line-height: 1;
+    }
   }
 }
 
@@ -200,11 +217,23 @@
     position: relative;
     margin-left: 100px;
     width: 555px;
-    .a-icon--coming {
+    .a-icon--specials {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      display: block;
+      text-align: center;
+      font-size: 50px;
+      line-height: 75px;
+      width: 75px;
+      height: 75px;
+      transition: all 300ms ease-in-out;
+      color: #fff;
+      border: 2px solid #ec7532;
+      border-radius: 50%;
+      font-family: "Material Icons";
+      cursor: pointer;
     }
   }
 }
