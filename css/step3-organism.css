@@ -1,3 +1,76 @@
+.o-slider {
+  display: flex;
+  width: 100%;
+}
+
+.o-slider--key-visual .m-slide {
+  width: 100%;
+  display: none;
+}
+
+.o-slider--key-visual .m-slide .m-categories {
+  display: flex;
+}
+
+.o-slider--key-visual .m-slide .m-categories .a-category {
+  margin-left: 5.6px;
+}
+
+.o-slider--key-visual .m-slide .a-title {
+  font-size: 52px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.4;
+  letter-spacing: 3px;
+  padding-left: 6px;
+}
+
+.o-slider--key-visual .m-slide .a-description {
+  line-height: 22px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 7px;
+}
+
+.o-slider--key-visual .m-slide .m-slider--carousel {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 6.5px;
+}
+
+.o-slider--key-visual .m-slide .m-slider--carousel .a-rate {
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 48px;
+  border: solid 2px #fff;
+  width: 43px;
+  height: 43px;
+}
+
+.o-slider--key-visual .m-slide .m-slider--carousel .a-slider-button {
+  margin-left: 12px;
+}
+
+.o-slider--key-visual .m-slide .m-slider--carousel .a-icon--specials {
+  font-family: "Material Icons";
+  font-size: 24px;
+  line-height: 1;
+  color: #fff;
+  display: inline-flex;
+}
+
+.o-slider--key-visual .m-slide--active {
+  display: block;
+}
+
+.o-tabs {
+  display: flex;
+}
+
 .o-schedule .a-title .a-title--slider {
   margin-left: 6px;
 }
@@ -10,16 +83,16 @@
   display: block;
 }
 
-.o-sliders--new-in {
-  display: flex;
+.o-slider--new-in .m-slide {
+  width: 25%;
 }
 
-.o-sliders--new-in li .m-new-in {
-  width: 263px;
+.o-slider--new-in .m-slide figure {
   margin-left: 29px;
+  width: 263px;
 }
 
-.o-sliders--new-in li .m-new-in .a-picture--specials {
+.o-slider--new-in .m-slide .a-picture--specials {
   width: 100%;
   height: auto;
   display: block;
@@ -27,7 +100,7 @@
   border-radius: 7px;
 }
 
-.o-sliders--new-in li .m-new-in .a-name--specials {
+.o-slider--new-in .m-slide .a-name--specials {
   text-align: center;
   margin-top: 21px;
   font-family: inherit;
@@ -37,44 +110,105 @@
   font-weight: 500;
 }
 
-.o-sliders--new-in li .m-new-in .m-stars--new-in {
+.o-slider--new-in .m-slide .m-stars--new-in {
   margin-left: 74px;
   margin-top: 13px;
 }
 
-.o-slider-movie {
+.o-coming-list .m-coming-item {
+  display: none;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-categories {
   display: flex;
 }
 
-.o-slider-movie .m-coming-movie {
-  width: 165px;
-  margin-left: 28px;
+.o-coming-list .m-coming-item .m-movie .m-categories .a-category {
+  margin-left: 5px;
 }
 
-.o-slider-movie .m-coming-movie .a-picture--specials {
-  display: block;
-  border-radius: 10px;
-  cursor: pointer;
-  width: 165px;
-}
-
-.o-slider-movie .m-coming-movie .a-name--specials {
-  margin-left: 18px;
-  margin-top: 18px;
-  font-family: inherit;
-  line-height: 1.4em;
-  font-size: 16px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.o-coming-list .m-coming-item .m-movie .a-title {
+  font-size: 34px;
+  z-index: 1;
   color: #fff;
   border-bottom-color: #333;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-stars--coming {
+  display: flex;
+  margin-left: 2.5px;
+  margin-top: 6px;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-stars--coming .a-star {
+  font-size: 14px;
+  width: 14px;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-stars--coming .a-star--disvoted {
+  color: #d8d8d8;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-stars--coming .m-date {
+  margin-left: 15px;
+  margin-top: -1px;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-stars--coming .m-date .a-icon--specials {
+  font-size: 14px;
+  display: inline-flex;
+  font-family: "Material Icons";
+  line-height: 1;
+}
+
+.o-coming-list .m-coming-item .m-movie .a-description {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 23px;
+}
+
+.o-coming-list .m-coming-item--active {
+  display: block;
+}
+
+.o-slider--coming .m-slide {
+  width: 16.67%;
+}
+
+.o-slider--coming .m-slide .a-picture--specials {
+  border-radius: 10px;
+  display: block;
+  width: 165px;
+}
+
+.o-slider--coming .m-slide .a-name--specials {
+  font-size: 16px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: -27px;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  z-index: 1;
+  color: #fff;
+  border-bottom-color: #333;
+  line-height: 1.4em;
+  position: relative;
+  font-family: inherit;
   font-weight: 500;
 }
 
-.o-slider-movie .m-coming-movie .a-date--coming {
-  text-align: center;
-  margin-left: 21px;
-  margin-top: 4px;
+.o-slider--coming .m-slide .a-date--coming {
+  margin-left: 27px;
+  margin-top: 5px;
 }
 
 .o-contact {
