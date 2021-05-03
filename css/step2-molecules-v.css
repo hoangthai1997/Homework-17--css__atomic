@@ -20,12 +20,12 @@
   display: inline-block;
 }
 
-.m-stars--new-in .a-star {
+.m-stars .a-star {
   font-size: 18px;
   width: 18px;
 }
 
-.m-stars--new-in .a-star--disvoted {
+.m-stars .a-star--disvoted {
   color: #d8d8d8;
 }
 
@@ -59,7 +59,7 @@
   letter-spacing: 1px;
 }
 
-.m-schedule .a-picture--specials {
+.m-schedule .a-picture {
   width: 165px;
   padding-left: 15px;
   padding-right: 30px;
@@ -69,13 +69,14 @@
   border-radius: 10px;
 }
 
-.m-schedule .a-description--specials {
+.m-schedule .a-description {
   margin-top: 12px;
   margin-bottom: 26px;
   margin-left: 6px;
+  color: #717171;
 }
 
-.m-schedule .a-link--specials {
+.m-schedule .a-link {
   margin-left: 6px;
   color: #ec7532;
   font-size: 12px;
@@ -84,34 +85,14 @@
   cursor: pointer;
 }
 
-.m-schedule .a-link--specials::after {
+.m-schedule .a-link::after {
   font-family: "Material Icons";
   font-weight: 700;
   content: "";
 }
 
-.m-schedule .a-link--specials:hover {
+.m-schedule .a-link:hover {
   color: black;
-}
-
-.m-schedule .m-container--schedule {
-  display: flex;
-  margin-top: 32px;
-}
-
-.m-schedule .m-container--schedule .a-schedule-subtitle {
-  display: flex;
-  align-items: center;
-  margin-top: 4px;
-  padding-left: 15px;
-}
-
-.m-schedule .m-container--schedule .a-schedule-subtitle .a-icon--specials {
-  margin-left: -5px;
-  font-size: 13px;
-  display: inline-flex;
-  font-family: "Material Icons";
-  line-height: 1;
 }
 
 .m-schedule .m-times {
@@ -119,40 +100,14 @@
   margin-top: 2px;
 }
 
-.m-schedule .m-container--rating {
-  display: flex;
-  margin-left: 451px;
-}
-
-.m-schedule .m-container--rating .a-minutes {
-  align-items: center;
-  margin-top: 13px;
-  margin-left: 2px;
-}
-
-.m-schedule .m-container--rating .a-rate {
-  margin-left: 10px;
-  margin-top: 1px;
-  line-height: 33px;
-  width: 33px;
-  height: 33px;
-  background: #4a4a4a;
-  font-size: 13px;
-  display: inline-block;
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 16px;
-}
-
-.m-slider--active {
+.m-schedule .m-slider--active {
   display: flex;
 }
 
-.m-times {
+.m-schedule .m-times {
   display: flex;
 }
 
-.m-times li:not(:first-child) {
+.m-schedule .m-times li:not(:first-child) {
   margin-left: 9px;
 }

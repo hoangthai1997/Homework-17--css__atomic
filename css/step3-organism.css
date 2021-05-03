@@ -1,6 +1,7 @@
 .o-slider {
   display: flex;
   width: 100%;
+  overflow: hidden;
 }
 
 .o-slider--key-visual .m-slide {
@@ -32,13 +33,13 @@
   padding-left: 7px;
 }
 
-.o-slider--key-visual .m-slide .m-slider--carousel {
+.o-slider--key-visual .m-slide .m-rated {
   display: flex;
   margin-top: 50px;
   margin-left: 6.5px;
 }
 
-.o-slider--key-visual .m-slide .m-slider--carousel .a-rate {
+.o-slider--key-visual .m-slide .m-rated .a-rate {
   font-size: 13px;
   display: inline-block;
   text-align: center;
@@ -51,11 +52,11 @@
   height: 43px;
 }
 
-.o-slider--key-visual .m-slide .m-slider--carousel .a-slider-button {
+.o-slider--key-visual .m-slide .m-rated .a-button {
   margin-left: 12px;
 }
 
-.o-slider--key-visual .m-slide .m-slider--carousel .a-icon--specials {
+.o-slider--key-visual .m-slide .m-rated .a-icon {
   font-family: "Material Icons";
   font-size: 24px;
   line-height: 1;
@@ -71,12 +72,62 @@
   display: flex;
 }
 
-.o-schedule .a-title .a-title--slider {
+.o-schedule .a-title {
   margin-left: 6px;
 }
 
 .o-schedule-movies {
   display: none;
+}
+
+.o-schedule-movies .m-schedule .m-container {
+  display: flex;
+  margin-top: 32px;
+}
+
+.o-schedule-movies .m-schedule .m-container .a-subtitle {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  padding-left: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  letter-spacing: 1.5px;
+}
+
+.o-schedule-movies .m-schedule .m-container .a-subtitle .a-icon {
+  margin-left: -5px;
+  font-size: 13px;
+  display: inline-flex;
+  font-family: "Material Icons";
+  line-height: 1;
+}
+
+.o-schedule-movies .m-schedule .m-container-rating {
+  display: flex;
+  margin-left: 451px;
+}
+
+.o-schedule-movies .m-schedule .m-container-rating .a-minutes {
+  align-items: center;
+  margin-top: 13px;
+  margin-left: 2px;
+}
+
+.o-schedule-movies .m-schedule .m-container-rating .a-rate {
+  margin-left: 10px;
+  margin-top: 1px;
+  line-height: 33px;
+  width: 33px;
+  height: 33px;
+  background: #4a4a4a;
+  font-size: 13px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 16px;
 }
 
 .o-schedule-movies--active {
@@ -92,7 +143,7 @@
   width: 263px;
 }
 
-.o-slider--new-in .m-slide .a-picture--specials {
+.o-slider--new-in .m-slide .a-picture {
   width: 100%;
   height: auto;
   display: block;
@@ -100,7 +151,7 @@
   border-radius: 7px;
 }
 
-.o-slider--new-in .m-slide .a-name--specials {
+.o-slider--new-in .m-slide .a-name {
   text-align: center;
   margin-top: 21px;
   font-family: inherit;
@@ -110,7 +161,7 @@
   font-weight: 500;
 }
 
-.o-slider--new-in .m-slide .m-stars--new-in {
+.o-slider--new-in .m-slide .m-stars {
   margin-left: 74px;
   margin-top: 13px;
 }
@@ -140,27 +191,27 @@
   margin-top: 2px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars--coming {
+.o-coming-list .m-coming-item .m-movie .m-stars {
   display: flex;
   margin-left: 2.5px;
   margin-top: 6px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars--coming .a-star {
+.o-coming-list .m-coming-item .m-movie .m-stars .a-star {
   font-size: 14px;
   width: 14px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars--coming .a-star--disvoted {
+.o-coming-list .m-coming-item .m-movie .m-stars .a-star--disvoted {
   color: #d8d8d8;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars--coming .m-date {
+.o-coming-list .m-coming-item .m-movie .m-stars .m-date {
   margin-left: 15px;
   margin-top: -1px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars--coming .m-date .a-icon--specials {
+.o-coming-list .m-coming-item .m-movie .m-stars .m-date .a-icon--specials {
   font-size: 14px;
   display: inline-flex;
   font-family: "Material Icons";
@@ -172,6 +223,15 @@
   font-size: 16px;
   margin-left: 5px;
   margin-top: 23px;
+}
+
+.o-coming-list .m-coming-item .m-movie .a-link {
+  font-size: 12px;
+  position: relative;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #ec7532;
+  cursor: pointer;
 }
 
 .o-coming-list .m-coming-item--active {

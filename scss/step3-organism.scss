@@ -1,6 +1,7 @@
 .o-slider {
   display: flex;
   width: 100%;
+  overflow: hidden;
 }
 
 .o-slider--key-visual {
@@ -27,7 +28,7 @@
       color: #fff;
       padding-left: 7px;
     }
-    .m-slider--carousel {
+    .m-rated {
       display: flex;
       margin-top: 50px;
       margin-left: 6.5px;
@@ -43,10 +44,10 @@
         width: 43px;
         height: 43px;
       }
-      .a-slider-button {
+      .a-button {
         margin-left: 12px;
       }
-      .a-icon--specials {
+      .a-icon {
         font-family: "Material Icons";
         font-size: 24px;
         line-height: 1;
@@ -65,13 +66,59 @@
 }
 
 .o-schedule {
-  .a-title .a-title--slider {
+  .a-title {
     margin-left: 6px;
   }
 }
 
 .o-schedule-movies {
   display: none;
+  .m-schedule {
+    .m-container {
+      display: flex;
+      margin-top: 32px;
+      .a-subtitle {
+        display: flex;
+        align-items: center;
+        margin-top: 4px;
+        padding-left: 15px;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #4a4a4a;
+        letter-spacing: 1.5px;
+        .a-icon {
+          margin-left: -5px;
+          font-size: 13px;
+          display: inline-flex;
+          font-family: "Material Icons";
+          line-height: 1;
+        }
+      }
+    }
+    .m-container-rating {
+      display: flex;
+      margin-left: 451px;
+      .a-minutes {
+        align-items: center;
+        margin-top: 13px;
+        margin-left: 2px;
+      }
+      .a-rate {
+        margin-left: 10px;
+        margin-top: 1px;
+        line-height: 33px;
+        width: 33px;
+        height: 33px;
+        background: #4a4a4a;
+        font-size: 13px;
+        display: inline-block;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        border-radius: 16px;
+      }
+    }
+  }
 }
 
 .o-schedule-movies--active {
@@ -85,14 +132,14 @@
       margin-left: 29px;
       width: 263px;
     }
-    .a-picture--specials {
+    .a-picture {
       width: 100%;
       height: auto;
       display: block;
       transition: 0.5s ease-in-out;
       border-radius: 7px;
     }
-    .a-name--specials {
+    .a-name {
       text-align: center;
       margin-top: 21px;
       font-family: inherit;
@@ -101,7 +148,7 @@
       color: #4a4a4a;
       font-weight: 500;
     }
-    .m-stars--new-in {
+    .m-stars {
       margin-left: 74px;
       margin-top: 13px;
     }
@@ -130,7 +177,7 @@
         margin-left: 5px;
         margin-top: 2px;
       }
-      .m-stars--coming {
+      .m-stars {
         display: flex;
         margin-left: 2.5px;
         margin-top: 6px;
@@ -144,7 +191,7 @@
         .m-date {
           margin-left: 15px;
           margin-top: -1px;
-          .a-icon--specials {
+          .a-icon {
             font-size: 14px;
             display: inline-flex;
             font-family: "Material Icons";
@@ -157,6 +204,14 @@
         font-size: 16px;
         margin-left: 5px;
         margin-top: 23px;
+      }
+      .a-link {
+        font-size: 12px;
+        position: relative;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #ec7532;
+        cursor: pointer;
       }
     }
   }

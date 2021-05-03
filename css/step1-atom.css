@@ -48,7 +48,7 @@
   line-height: 1.42857143;
 }
 
-.a-slider-button {
+.a-button {
   font-size: 13px;
   font-weight: 400;
   border-radius: 30px;
@@ -59,7 +59,7 @@
   letter-spacing: 4px;
 }
 
-.a-slider-play {
+.a-play {
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 4px;
@@ -112,10 +112,6 @@
 
 .a-section-title--new::after {
   top: 18px;
-}
-
-.a-schedule-title {
-  display: none;
 }
 
 .a-day {
@@ -179,13 +175,6 @@
 .a-date--coming {
   text-align: center;
   opacity: 0.5;
-}
-
-.a-schedule-subtitle {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #4a4a4a;
-  letter-spacing: 1.5px;
 }
 
 .a-time {
