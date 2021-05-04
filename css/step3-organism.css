@@ -244,27 +244,27 @@
   margin-top: 2px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars {
+.o-coming-list .m-coming-item .m-movie .o-stars {
   display: flex;
   margin-left: 2.5px;
   margin-top: 6px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars .a-star {
+.o-coming-list .m-coming-item .m-movie .o-stars .a-star {
   font-size: 14px;
   width: 14px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars .a-star--disvoted {
+.o-coming-list .m-coming-item .m-movie .o-stars .a-star--disvoted {
   color: #d8d8d8;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars .m-date {
+.o-coming-list .m-coming-item .m-movie .o-stars .m-date {
   margin-left: 15px;
   margin-top: -1px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars .m-date .a-icon {
+.o-coming-list .m-coming-item .m-movie .o-stars .m-date .a-icon {
   font-size: 14px;
   display: inline-flex;
   font-family: "Material Icons";
