@@ -351,11 +351,11 @@
   font-family: inherit;
 }
 
-.o-footer--links .a-footer-link {
+.o-links .a-link {
   display: block;
   padding-top: 7.1px;
 }
 
-.o-footer--links .a-footer-link i {
+.o-links .a-link i {
   padding-right: 20px;
 }
