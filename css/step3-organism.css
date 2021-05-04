@@ -295,13 +295,14 @@
   width: 16.67%;
 }
 
-.o-slider--coming .m-slide .a-picture--specials {
+.o-slider--coming .m-slide .a-picture {
   border-radius: 10px;
   display: block;
   width: 165px;
+  margin-left: 10px;
 }
 
-.o-slider--coming .m-slide .a-name--specials {
+.o-slider--coming .m-slide .a-name {
   font-size: 16px;
   overflow: hidden;
   width: 100%;
@@ -319,7 +320,7 @@
   font-weight: 500;
 }
 
-.o-slider--coming .m-slide .a-date--coming {
+.o-slider--coming .m-slide .a-date {
   margin-left: 27px;
   margin-top: 5px;
 }

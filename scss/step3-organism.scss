@@ -269,12 +269,13 @@
 .o-slider--coming {
   .m-slide {
     width: 16.67%;
-    .a-picture--specials {
+    .a-picture {
       border-radius: 10px;
       display: block;
       width: 165px;
+      margin-left: 10px;
     }
-    .a-name--specials {
+    .a-name {
       font-size: 16px;
       overflow: hidden;
       width: 100%;
@@ -291,7 +292,7 @@
       font-family: inherit;
       font-weight: 500;
     }
-    .a-date--coming {
+    .a-date {
       margin-left: 27px;
       margin-top: 5px;
     }
