@@ -1,32 +1,9 @@
-.m-nav {
-  display: flex;
-}
-
 .m-bullets {
   display: flex;
 }
 
 .m-bullets .a-bullet {
   margin-left: 10px;
-}
-
-.m-stars {
-  display: flex;
-}
-
-.m-stars li {
-  margin-left: 4px;
-  color: #fbbd61;
-  display: inline-block;
-}
-
-.m-stars .a-star {
-  font-size: 18px;
-  width: 18px;
-}
-
-.m-stars .a-star--disvoted {
-  color: #d8d8d8;
 }
 
 .m-schedule {
@@ -95,19 +72,6 @@
   color: black;
 }
 
-.m-schedule .m-times {
-  margin-left: 9px;
-  margin-top: 2px;
-}
-
 .m-schedule .m-slider--active {
   display: flex;
-}
-
-.m-schedule .m-times {
-  display: flex;
-}
-
-.m-schedule .m-times li:not(:first-child) {
-  margin-left: 9px;
 }

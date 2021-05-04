@@ -1,3 +1,38 @@
+.o-navs {
+  display: flex;
+}
+
+.o-stars {
+  display: flex;
+  margin-left: 77px;
+  margin-top: 13px;
+}
+
+.o-stars .m-star {
+  margin-left: 3px;
+  color: #fbbd61;
+  display: inline-block;
+}
+
+.o-stars .m-star .a-star {
+  font-size: 18px;
+  width: 18px;
+}
+
+.o-stars .m-star .a-star--disvoted {
+  color: #d8d8d8;
+}
+
+.o-times {
+  display: flex;
+  margin-left: 9px;
+}
+
+.o-times .m-time:not(:first-child) {
+  margin-left: 9px;
+  margin-top: 2px;
+}
+
 .o-slider {
   display: flex;
   width: 100%;
@@ -76,16 +111,16 @@
   margin-left: 6px;
 }
 
-.o-schedule-movies {
+.o-films {
   display: none;
 }
 
-.o-schedule-movies .m-schedule .m-container {
+.o-films .m-schedule .m-container {
   display: flex;
   margin-top: 32px;
 }
 
-.o-schedule-movies .m-schedule .m-container .a-subtitle {
+.o-films .m-schedule .m-container .a-subtitle {
   display: flex;
   align-items: center;
   margin-top: 4px;
@@ -96,7 +131,7 @@
   letter-spacing: 1.5px;
 }
 
-.o-schedule-movies .m-schedule .m-container .a-subtitle .a-icon {
+.o-films .m-schedule .m-container .a-subtitle .a-icon {
   margin-left: -5px;
   font-size: 13px;
   display: inline-flex;
@@ -104,18 +139,18 @@
   line-height: 1;
 }
 
-.o-schedule-movies .m-schedule .m-container-rating {
+.o-films .m-schedule .m-container-rating {
   display: flex;
   margin-left: 451px;
 }
 
-.o-schedule-movies .m-schedule .m-container-rating .a-minutes {
+.o-films .m-schedule .m-container-rating .a-minutes {
   align-items: center;
   margin-top: 13px;
   margin-left: 2px;
 }
 
-.o-schedule-movies .m-schedule .m-container-rating .a-rate {
+.o-films .m-schedule .m-container-rating .a-rate {
   margin-left: 10px;
   margin-top: 1px;
   line-height: 33px;
@@ -130,7 +165,7 @@
   border-radius: 16px;
 }
 
-.o-schedule-movies--active {
+.o-films--active {
   display: block;
 }
 
@@ -168,6 +203,24 @@
 
 .o-coming-list .m-coming-item {
   display: none;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-picture {
+  position: relative;
+}
+
+.o-coming-list .m-coming-item .m-movie .m-picture .a-picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.o-coming-list .m-coming-item .m-movie .m-picture .a-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .o-coming-list .m-coming-item .m-movie .m-categories {
@@ -211,7 +264,7 @@
   margin-top: -1px;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-stars .m-date .a-icon--specials {
+.o-coming-list .m-coming-item .m-movie .m-stars .m-date .a-icon {
   font-size: 14px;
   display: inline-flex;
   font-family: "Material Icons";
