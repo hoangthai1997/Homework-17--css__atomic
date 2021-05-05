@@ -115,6 +115,10 @@
   display: none;
 }
 
+.o-films .m-schedule .a-category {
+  margin-left: 6px;
+}
+
 .o-films .m-schedule .m-container {
   display: flex;
   margin-top: 32px;
@@ -221,6 +225,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 50px;
+  line-height: 75px;
+  width: 80px;
+  height: 80px;
+  transition: all 300ms ease-in-out;
+  text-align: center;
+  text-indent: 14px;
+  color: #fff;
+  border: 2px solid #ec7532;
+  border-radius: 50px;
 }
 
 .o-coming-list .m-coming-item .m-movie .m-categories {
