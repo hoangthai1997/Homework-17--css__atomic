@@ -4,8 +4,8 @@
 
 .o-stars {
   display: flex;
-  margin-left: 77px;
-  margin-top: 13px;
+  margin-left: 136px;
+  margin-top: 14px;
   .m-star {
     margin-left: 3px;
     color: #fbbd61;
@@ -30,15 +30,15 @@
 }
 
 .o-slider {
-  display: flex;
   width: 100%;
-  overflow: hidden;
 }
 
 .o-slider--key-visual {
+  display: flex;
   .m-slide {
-    width: 100%;
-    display: none;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
     .m-categories {
       display: flex;
       .a-category {
@@ -86,9 +86,6 @@
         display: inline-flex;
       }
     }
-  }
-  .m-slide--active {
-    display: block;
   }
 }
 
@@ -158,44 +155,48 @@
 .o-films--active {
   display: block;
 }
-
-.o-slider--new-in {
-  .m-slide {
-    display: none;
-    width: 25%;
-    figure {
-      margin-left: 29px;
-      width: 263px;
+.o-slider-container {
+  overflow: hidden;
+  .o-slider--new-in {
+    display: flex;
+    .m-slide {
+      flex-basis: 25%;
+      flex-shrink: 0;
+      flex-grow: 0;
+      padding: 0 15px;
+      .a-picture {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: 0.5s ease-in-out;
+        border-radius: 7px;
+      }
+      .a-name {
+        text-align: center;
+        margin-top: 21px;
+        font-family: inherit;
+        line-height: 1.4em;
+        font-size: 18px;
+        color: #4a4a4a;
+        font-weight: 500;
+      }
+      .m-stars {
+        margin-left: 74px;
+        margin-top: 13px;
+      }
     }
-    .a-picture {
-      width: 100%;
-      height: auto;
-      display: block;
-      transition: 0.5s ease-in-out;
-      border-radius: 7px;
-    }
-    .a-name {
-      text-align: center;
-      margin-top: 21px;
-      font-family: inherit;
-      line-height: 1.4em;
-      font-size: 18px;
-      color: #4a4a4a;
-      font-weight: 500;
-    }
-    .m-stars {
-      margin-left: 74px;
-      margin-top: 13px;
-    }
-  }
-  .m-slide--active {
-    display: block;
+    // .m-slide--active {
+    //   display: block;
+    // }
   }
 }
 
 .o-coming-list {
+  display: flex;
   .m-coming-item {
-    display: none;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
     .m-movie {
       .m-picture {
         position: relative;
@@ -216,7 +217,6 @@
           height: 80px;
           transition: all 300ms ease-in-out;
           text-align: center;
-          text-indent: 14px;
           color: #fff;
           border: 2px solid #ec7532;
           border-radius: 50px;
@@ -278,15 +278,15 @@
       }
     }
   }
-  .m-coming-item--active {
-    display: block;
-  }
 }
 
 .o-slider--coming {
+  display: flex;
   .m-slide {
-    display: none;
-    width: 16.67%;
+    flex-basis: 20%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 0 15px;
     .a-picture {
       border-radius: 10px;
       display: block;
@@ -314,9 +314,6 @@
       margin-left: 27px;
       margin-top: 5px;
     }
-  }
-  .m-slide--active {
-    display: block;
   }
 }
 
