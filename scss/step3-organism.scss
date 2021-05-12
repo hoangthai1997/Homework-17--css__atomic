@@ -6,13 +6,15 @@
   display: flex;
   margin-left: 136px;
   margin-top: 14px;
+  width: 18px;
   .m-star {
     margin-left: 3px;
     color: #fbbd61;
     display: inline-block;
+    width: 100%;
     .a-star {
       font-size: 18px;
-      width: 18px;
+      width: 100%;
     }
     .a-star--disvoted {
       color: #d8d8d8;
@@ -27,10 +29,6 @@
     margin-left: 9px;
     margin-top: 2px;
   }
-}
-
-.o-slider {
-  width: 100%;
 }
 
 .o-slider--key-visual {
@@ -73,7 +71,6 @@
         line-height: 48px;
         border: solid 2px #fff;
         width: 43px;
-        height: 43px;
       }
       .a-button {
         margin-left: 12px;

@@ -6,17 +6,19 @@
   display: flex;
   margin-left: 136px;
   margin-top: 14px;
+  width: 18px;
 }
 
 .o-stars .m-star {
   margin-left: 3px;
   color: #fbbd61;
   display: inline-block;
+  width: 100%;
 }
 
 .o-stars .m-star .a-star {
   font-size: 18px;
-  width: 18px;
+  width: 100%;
 }
 
 .o-stars .m-star .a-star--disvoted {
@@ -31,10 +33,6 @@
 .o-times .m-time:not(:first-child) {
   margin-left: 9px;
   margin-top: 2px;
-}
-
-.o-slider {
-  width: 100%;
 }
 
 .o-slider--key-visual {
@@ -87,7 +85,6 @@
   line-height: 48px;
   border: solid 2px #fff;
   width: 43px;
-  height: 43px;
 }
 
 .o-slider--key-visual .m-slide .m-rated .a-button {
