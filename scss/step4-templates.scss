@@ -1,0 +1,19 @@
+.t-section--new-in {
+  background-color: white;
+}
+
+.t-section--schedule {
+  background-color: white;
+}
+
+.t-footer {
+  div {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 55px;
+    .o-footer {
+      width: 25%;
+    }
+  }
+}

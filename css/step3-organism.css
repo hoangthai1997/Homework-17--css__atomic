@@ -351,6 +351,10 @@
 
 .o-contact {
   text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  margin-top: 36px;
+  padding-bottom: 55px;
 }
 
 .o-contact .a-description {
