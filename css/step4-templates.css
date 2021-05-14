@@ -1,3 +1,22 @@
+.t-header {
+  margin-left: 188px;
+  margin-top: 49px;
+  display: flex;
+}
+
+.t-header nav {
+  margin-left: 280px;
+  margin-top: 5px;
+}
+
+.t-section--carousel {
+  background: url("../img/hero-1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin-left: 205px;
+  margin-top: 144px;
+  margin-bottom: 85px;
+}
+
 .t-section--new-in {
   background-color: white;
 }

@@ -1,5 +1,7 @@
 .m-bullets {
   display: flex;
+  margin-top: 59px;
+  margin-left: -2px;
 }
 
 .m-bullets .a-bullet {
