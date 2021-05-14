@@ -110,6 +110,7 @@
 
 .o-films {
   display: none;
+  margin-top: 50px;
 }
 
 .o-films .m-schedule .a-category {
@@ -210,6 +211,8 @@
 
 .o-coming-list {
   display: flex;
+  margin-top: 115px;
+  margin-left: 180px;
 }
 
 .o-coming-list .m-coming-item {
@@ -311,6 +314,8 @@
 
 .o-slider--coming {
   display: flex;
+  margin-top: 40px;
+  padding-bottom: 10px;
 }
 
 .o-slider--coming .m-slide {

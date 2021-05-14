@@ -19,10 +19,28 @@
 
 .t-section--new-in {
   background-color: white;
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+
+.t-section--new-in header {
+  margin-left: 197px;
+  margin-bottom: 50px;
+  margin-right: 205px;
 }
 
 .t-section--schedule {
   background-color: white;
+  padding-bottom: 60px;
+}
+
+.t-section--coming {
+  margin-top: 70px;
+}
+
+.t-section--coming header {
+  margin-left: 189px;
+  margin-right: 180px;
 }
 
 .t-footer div {
