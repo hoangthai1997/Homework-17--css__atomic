@@ -113,6 +113,10 @@
   margin-top: 50px;
 }
 
+.o-films .m-schedule {
+  margin-bottom: 30px;
+}
+
 .o-films .m-schedule .a-category {
   margin-left: 6px;
 }
@@ -301,6 +305,7 @@
   font-size: 16px;
   margin-left: 5px;
   margin-top: 23px;
+  margin-bottom: 10px;
 }
 
 .o-coming-list .m-coming-item .m-movie .a-link {
@@ -337,7 +342,7 @@
   overflow: hidden;
   width: 100%;
   margin-top: 20px;
-  margin-left: -27px;
+  margin-left: -60px;
   text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -351,7 +356,7 @@
 }
 
 .o-slider--coming .m-slide .a-date {
-  margin-left: 27px;
+  margin-left: 34px;
   margin-top: 5px;
 }
 
