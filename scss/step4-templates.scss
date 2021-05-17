@@ -1,46 +1,60 @@
 .t-header {
-  margin-left: 188px;
-  margin-top: 49px;
+  width: 1170px;
+  margin: auto;
   display: flex;
-  nav {
-    margin-left: 280px;
-    margin-top: 5px;
-  }
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-.t-section--carousel {
-  background: url("../img/hero-1.jpg") no-repeat center center fixed;
-  background-size: cover;
-  margin-left: 205px;
-  margin-top: 144px;
-  margin-bottom: 85px;
+.t-section--key-visual {
+  margin-top: 60px;
 }
 
 .t-section--new-in {
   background-color: white;
   padding-top: 80px;
   padding-bottom: 140px;
+  width: 1170px;
+  margin: auto;
   header {
-    margin-left: 197px;
     margin-bottom: 50px;
-    margin-right: 205px;
   }
 }
 
 .t-section--schedule {
   background-color: white;
   padding-bottom: 60px;
+  width: 1170px;
+  margin: auto;
 }
 
 .t-section--coming {
   margin-top: 70px;
-  header {
-    margin-left: 189px;
-    margin-right: 180px;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+.t-section--contact {
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  margin-top: 36px;
+  padding-bottom: 55px;
+  .a-description {
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-weight: 300;
+    color: #4a4a4a;
+  }
+  .a-phone {
+    margin-left: 1px;
   }
 }
 
 .t-footer {
+  background-color: black;
   div {
     display: flex;
     align-items: center;

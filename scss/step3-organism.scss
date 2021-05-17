@@ -41,6 +41,7 @@
       display: flex;
       .a-category {
         margin-left: 5.6px;
+        color: #fbbd61;
       }
     }
     .a-title {
@@ -61,7 +62,7 @@
     .m-rated {
       display: flex;
       margin-top: 50px;
-      margin-left: 6.5px;
+      margin-bottom: 100px;
       .a-rate {
         font-size: 13px;
         display: inline-block;
@@ -319,24 +320,6 @@
       margin-left: 34px;
       margin-top: 5px;
     }
-  }
-}
-
-.o-contact {
-  text-align: center;
-  background-color: white;
-  padding-top: 50px;
-  margin-top: 36px;
-  padding-bottom: 55px;
-  .a-description {
-    margin-bottom: 25px;
-    letter-spacing: 1px;
-    font-size: 23px;
-    font-weight: 300;
-    color: #4a4a4a;
-  }
-  .a-phone {
-    margin-left: 1px;
   }
 }
 

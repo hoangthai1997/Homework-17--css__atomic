@@ -73,21 +73,6 @@
   position: relative;
 }
 
-.a-bullet--active {
-  background-color: #fff;
-}
-
-.a-bullet {
-  display: inline-block;
-  border: solid 2px #fff;
-  width: 10px;
-  height: 10px;
-  text-indent: -999px;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .a-section-title {
   font-size: 18px;
   text-transform: uppercase;

@@ -51,6 +51,7 @@
 
 .o-slider--key-visual .m-slide .m-categories .a-category {
   margin-left: 5.6px;
+  color: #fbbd61;
 }
 
 .o-slider--key-visual .m-slide .a-title {
@@ -73,7 +74,7 @@
 .o-slider--key-visual .m-slide .m-rated {
   display: flex;
   margin-top: 50px;
-  margin-left: 6.5px;
+  margin-bottom: 100px;
 }
 
 .o-slider--key-visual .m-slide .m-rated .a-rate {
@@ -358,26 +359,6 @@
 .o-slider--coming .m-slide .a-date {
   margin-left: 34px;
   margin-top: 5px;
-}
-
-.o-contact {
-  text-align: center;
-  background-color: white;
-  padding-top: 50px;
-  margin-top: 36px;
-  padding-bottom: 55px;
-}
-
-.o-contact .a-description {
-  margin-bottom: 25px;
-  letter-spacing: 1px;
-  font-size: 23px;
-  font-weight: 300;
-  color: #4a4a4a;
-}
-
-.o-contact .a-phone {
-  margin-left: 1px;
 }
 
 .o-footer .a-title {
