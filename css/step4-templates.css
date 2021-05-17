@@ -31,18 +31,24 @@
 }
 
 .t-section--coming {
-  margin-top: 70px;
+  padding-top: 60px;
   background-color: black;
   width: 100%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.t-section--coming .a-section-title--coming {
+  width: 1170px;
   margin: auto;
 }
 
 .t-section--contact {
   text-align: center;
   background-color: white;
-  padding-top: 50px;
+  padding-top: 15px;
   margin-top: 36px;
-  padding-bottom: 55px;
+  padding-bottom: 50px;
 }
 
 .t-section--contact .a-description {
@@ -59,6 +65,7 @@
 
 .t-footer {
   background-color: black;
+  padding-top: 1px;
 }
 
 .t-footer div {
