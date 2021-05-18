@@ -66,9 +66,12 @@
 .t-footer {
   background-color: black;
   padding-top: 1px;
+  width: 100%;
 }
 
 .t-footer div {
+  width: 1170px;
+  margin: auto;
   display: flex;
   align-items: center;
   margin-left: 150px;

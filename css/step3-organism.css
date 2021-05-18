@@ -322,6 +322,8 @@
   display: flex;
   margin-top: 40px;
   padding-bottom: 10px;
+  width: 1170px;
+  margin: auto;
 }
 
 .o-slider--coming .m-slide {
@@ -343,7 +345,7 @@
   overflow: hidden;
   width: 100%;
   margin-top: 20px;
-  margin-left: -60px;
+  margin-left: -27px;
   text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
