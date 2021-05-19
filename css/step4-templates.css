@@ -9,6 +9,7 @@
 
 .t-section--key-visual {
   margin-top: 60px;
+  overflow: hidden;
 }
 
 .t-section--new-in {
@@ -36,6 +37,7 @@
   width: 100%;
   margin: auto;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 
 .t-section--coming .a-section-title--coming {
