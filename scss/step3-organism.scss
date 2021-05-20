@@ -184,7 +184,7 @@
         font-weight: 500;
       }
       .m-stars {
-        margin-left: 74px;
+        // margin-left: 74px;
         margin-top: 13px;
       }
     }
@@ -197,7 +197,9 @@
 .o-coming-list {
   display: flex;
   margin-top: 115px;
-  margin-left: 180px;
+  width: 1170px;
+  margin: auto;
+  overflow: hidden;
   .m-coming-item {
     flex-basis: 100%;
     flex-shrink: 0;
@@ -230,7 +232,7 @@
       .m-categories {
         display: flex;
         .a-category {
-          margin-left: 5px;
+          // margin-left: 5px;
         }
       }
       .a-title {
@@ -242,12 +244,12 @@
         letter-spacing: 1px;
         line-height: 1.4em;
         position: relative;
-        margin-left: 5px;
+        // margin-left: 5px;
         margin-top: 2px;
       }
       .o-stars {
         display: flex;
-        margin-left: 2.5px;
+        // margin-left: 2.5px;
         margin-top: 6px;
         .a-star {
           font-size: 14px;
@@ -257,7 +259,7 @@
           color: #d8d8d8;
         }
         .m-date {
-          margin-left: 15px;
+          // margin-left: 15px;
           margin-top: -1px;
           .a-icon {
             font-size: 14px;
@@ -270,7 +272,7 @@
       .a-description {
         color: #fff;
         font-size: 16px;
-        margin-left: 5px;
+        // margin-left: 5px;
         margin-top: 23px;
         margin-bottom: 10px;
       }
@@ -288,10 +290,10 @@
 
 .o-slider--coming {
   display: flex;
-  margin-top: 40px;
   padding-bottom: 10px;
   width: 1170px;
   margin: auto;
+  overflow: hidden;
   .m-slide {
     flex-basis: 20%;
     flex-shrink: 0;
@@ -301,14 +303,14 @@
       border-radius: 10px;
       display: block;
       width: 165px;
-      margin-left: 10px;
+      // margin-left: 10px;
     }
     .a-name {
       font-size: 16px;
       overflow: hidden;
       width: 100%;
       margin-top: 20px;
-      margin-left: -27px;
+      // margin-left: -27px;
       text-align: center;
       white-space: nowrap;
       text-overflow: ellipsis;
@@ -321,7 +323,7 @@
       font-weight: 500;
     }
     .a-date {
-      margin-left: 34px;
+      // margin-left: 34px;
       margin-top: 5px;
     }
   }

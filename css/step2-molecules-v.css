@@ -71,12 +71,7 @@
   display: flex;
 }
 
-.m-schedule .m-categories .a-category {
-  margin-left: 5px;
-}
-
 .m-schedule .a-name {
-  margin-left: 6px;
   margin-top: 2px;
   font-family: inherit;
   line-height: 1.4em;
@@ -99,12 +94,10 @@
 .m-schedule .a-description {
   margin-top: 12px;
   margin-bottom: 26px;
-  margin-left: 6px;
   color: #717171;
 }
 
 .m-schedule .a-link {
-  margin-left: 6px;
   color: #ec7532;
   font-size: 12px;
   text-transform: uppercase;

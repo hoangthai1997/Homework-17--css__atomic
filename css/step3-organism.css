@@ -210,14 +210,15 @@
 }
 
 .o-slider-container .o-slider--new-in .m-slide .m-stars {
-  margin-left: 74px;
   margin-top: 13px;
 }
 
 .o-coming-list {
   display: flex;
   margin-top: 115px;
-  margin-left: 180px;
+  width: 1170px;
+  margin: auto;
+  overflow: hidden;
 }
 
 .o-coming-list .m-coming-item {
@@ -257,10 +258,6 @@
   display: flex;
 }
 
-.o-coming-list .m-coming-item .m-movie .m-categories .a-category {
-  margin-left: 5px;
-}
-
 .o-coming-list .m-coming-item .m-movie .a-title {
   font-size: 34px;
   z-index: 1;
@@ -270,13 +267,11 @@
   letter-spacing: 1px;
   line-height: 1.4em;
   position: relative;
-  margin-left: 5px;
   margin-top: 2px;
 }
 
 .o-coming-list .m-coming-item .m-movie .o-stars {
   display: flex;
-  margin-left: 2.5px;
   margin-top: 6px;
 }
 
@@ -290,7 +285,6 @@
 }
 
 .o-coming-list .m-coming-item .m-movie .o-stars .m-date {
-  margin-left: 15px;
   margin-top: -1px;
 }
 
@@ -304,7 +298,6 @@
 .o-coming-list .m-coming-item .m-movie .a-description {
   color: #fff;
   font-size: 16px;
-  margin-left: 5px;
   margin-top: 23px;
   margin-bottom: 10px;
 }
@@ -320,10 +313,10 @@
 
 .o-slider--coming {
   display: flex;
-  margin-top: 40px;
   padding-bottom: 10px;
   width: 1170px;
   margin: auto;
+  overflow: hidden;
 }
 
 .o-slider--coming .m-slide {
@@ -337,7 +330,6 @@
   border-radius: 10px;
   display: block;
   width: 165px;
-  margin-left: 10px;
 }
 
 .o-slider--coming .m-slide .a-name {
@@ -345,7 +337,6 @@
   overflow: hidden;
   width: 100%;
   margin-top: 20px;
-  margin-left: -27px;
   text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -359,7 +350,6 @@
 }
 
 .o-slider--coming .m-slide .a-date {
-  margin-left: 34px;
   margin-top: 5px;
 }
 
