@@ -43,6 +43,7 @@
 .t-section--coming .a-section-title--coming {
   width: 1170px;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .t-section--contact {
