@@ -4,6 +4,25 @@
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  background-color: black;
+  .o-telephone {
+    display: flex;
+    .m-phone a {
+      font-size: 14px;
+      font-family: "roboto condensed", sans-serif;
+      color: white;
+      .a-icon-phone {
+        color: #fff;
+        font-size: 17px;
+      }
+    }
+    .m-search {
+      .a-icon-search {
+        color: #fff;
+        font-size: 17px;
+      }
+    }
+  }
 }
 
 .t-section--key-visual {
