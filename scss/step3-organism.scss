@@ -4,9 +4,12 @@
 
 .o-times {
   display: flex;
-  // margin-left: 9px;
+  margin-left: 9px;
+  .m-time {
+    margin-top: 2px;
+  }
   .m-time:not(:first-child) {
-    // margin-left: 9px;
+    margin-left: 9px;
     margin-top: 2px;
   }
 }
@@ -21,7 +24,7 @@
       .m-categories {
         display: flex;
         .a-category {
-          // margin-left: 5.6px;
+          margin-left: 5.6px;
           color: #fbbd61;
         }
       }
@@ -34,7 +37,7 @@
         padding-left: 6px;
       }
       .a-description {
-        line-height: 22px;
+        line-height: 26px;
         font-size: 18px;
         color: #fff;
         padding-right: 336px;
@@ -43,21 +46,23 @@
       }
       .m-rated {
         display: flex;
-        margin-top: 50px;
-        margin-bottom: 150px;
-        justify-content: space-between;
+        margin-top: 29px;
+        margin-bottom: 171px;
         .a-rate {
+          display: inline-block;
+          transform: translateY(2px);
           font-size: 13px;
           text-align: center;
-          font-weight: bold;
+          font-weight: 700;
           color: #fff;
           border-radius: 50%;
           line-height: 48px;
           border: solid 2px #fff;
-          width: 43px;
+          width: 45px;
+          height: 45px;
         }
         .a-button {
-          // margin-left: 12px;
+          margin-left: 16px;
         }
         .a-icon {
           font-family: "Material Icons";
@@ -87,12 +92,11 @@
   .m-schedule {
     margin-bottom: 30px;
     .a-category {
-      // margin-left: 6px;
+      margin-left: 6px;
     }
     .m-container {
       display: flex;
       margin-top: 32px;
-      justify-content: space-between;
       .a-subtitle {
         display: flex;
         align-items: center;
@@ -103,7 +107,7 @@
         color: #4a4a4a;
         letter-spacing: 1.5px;
         .a-icon {
-          // margin-left: -5px;
+          margin-left: -5px;
           font-size: 13px;
           display: inline-flex;
           font-family: "Material Icons";
@@ -113,14 +117,14 @@
     }
     .m-container-rating {
       display: flex;
-      // margin-left: 451px;
+      margin-left: 451px;
       .a-minutes {
         align-items: center;
         margin-top: 13px;
-        // margin-left: 2px;
+        margin-left: 2px;
       }
       .a-rate {
-        // margin-left: 10px;
+        margin-left: 10px;
         margin-top: 1px;
         line-height: 33px;
         width: 33px;
@@ -150,7 +154,6 @@
       flex-grow: 0;
       padding: 0 15px;
       .a-picture {
-        width: 100%;
         height: auto;
         display: block;
         transition: 0.5s ease-in-out;
@@ -162,7 +165,6 @@
           // margin-left: 91px;
           margin-top: 14px;
           width: 18px;
-          justify-content: space-between;
           .m-star {
             // margin-left: 3px;
             color: #fbbd61;
@@ -259,7 +261,7 @@
           // margin-left: 3px;
           color: #fbbd61;
           display: inline-block;
-          width: 100%;
+          // width: 100%;
           .a-star {
             font-size: 14px;
             width: 14px;

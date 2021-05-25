@@ -4,9 +4,15 @@
 
 .o-times {
   display: flex;
+  margin-left: 9px;
+}
+
+.o-times .m-time {
+  margin-top: 2px;
 }
 
 .o-times .m-time:not(:first-child) {
+  margin-left: 9px;
   margin-top: 2px;
 }
 
@@ -25,6 +31,7 @@
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-categories .a-category {
+  margin-left: 5.6px;
   color: #fbbd61;
 }
 
@@ -38,7 +45,7 @@
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .a-description {
-  line-height: 22px;
+  line-height: 26px;
   font-size: 18px;
   color: #fff;
   padding-right: 336px;
@@ -48,20 +55,26 @@
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-rated {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 150px;
-  justify-content: space-between;
+  margin-top: 29px;
+  margin-bottom: 171px;
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-rated .a-rate {
+  display: inline-block;
+  transform: translateY(2px);
   font-size: 13px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   border-radius: 50%;
   line-height: 48px;
   border: solid 2px #fff;
-  width: 43px;
+  width: 45px;
+  height: 45px;
+}
+
+.o-slider--key-visual .m-slide .m-key-visual-article .m-rated .a-button {
+  margin-left: 16px;
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-rated .a-icon {
@@ -85,10 +98,13 @@
   margin-bottom: 30px;
 }
 
+.o-films .m-schedule .a-category {
+  margin-left: 6px;
+}
+
 .o-films .m-schedule .m-container {
   display: flex;
   margin-top: 32px;
-  justify-content: space-between;
 }
 
 .o-films .m-schedule .m-container .a-subtitle {
@@ -103,6 +119,7 @@
 }
 
 .o-films .m-schedule .m-container .a-subtitle .a-icon {
+  margin-left: -5px;
   font-size: 13px;
   display: inline-flex;
   font-family: "Material Icons";
@@ -111,14 +128,17 @@
 
 .o-films .m-schedule .m-container-rating {
   display: flex;
+  margin-left: 451px;
 }
 
 .o-films .m-schedule .m-container-rating .a-minutes {
   align-items: center;
   margin-top: 13px;
+  margin-left: 2px;
 }
 
 .o-films .m-schedule .m-container-rating .a-rate {
+  margin-left: 10px;
   margin-top: 1px;
   line-height: 33px;
   width: 33px;
@@ -152,7 +172,6 @@
 }
 
 .o-slider-container .o-slider--new-in .m-slide .a-picture {
-  width: 100%;
   height: auto;
   display: block;
   transition: 0.5s ease-in-out;
@@ -163,7 +182,6 @@
   display: flex;
   margin-top: 14px;
   width: 18px;
-  justify-content: space-between;
 }
 
 .o-slider-container .o-slider--new-in .m-slide figcaption .o-stars .m-star {
@@ -260,7 +278,6 @@
 .o-coming-list .m-coming-item .m-movie .o-stars .m-star {
   color: #fbbd61;
   display: inline-block;
-  width: 100%;
 }
 
 .o-coming-list .m-coming-item .m-movie .o-stars .m-star .a-star {
