@@ -5,6 +5,7 @@
 .o-times {
   display: flex;
   margin-left: 9px;
+  margin-top: -5px;
 }
 
 .o-times .m-time {
@@ -98,10 +99,6 @@
   margin-bottom: 30px;
 }
 
-.o-films .m-schedule .a-category {
-  margin-left: 6px;
-}
-
 .o-films .m-schedule .m-container {
   display: flex;
   margin-top: 32px;
@@ -110,8 +107,8 @@
 .o-films .m-schedule .m-container .a-subtitle {
   display: flex;
   align-items: center;
-  margin-top: 4px;
-  padding-left: 15px;
+  margin-top: 3px;
+  padding-left: 9px;
   font-size: 12px;
   text-transform: uppercase;
   color: #4a4a4a;
@@ -129,6 +126,7 @@
 .o-films .m-schedule .m-container-rating {
   display: flex;
   margin-left: 451px;
+  margin-top: -4px;
 }
 
 .o-films .m-schedule .m-container-rating .a-minutes {
@@ -180,7 +178,8 @@
 
 .o-slider-container .o-slider--new-in .m-slide figcaption .o-stars {
   display: flex;
-  margin-top: 14px;
+  text-align: center;
+  margin: 14px 0;
   width: 18px;
 }
 

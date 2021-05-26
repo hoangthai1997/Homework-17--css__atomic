@@ -63,6 +63,7 @@
   }
   .m-categories {
     display: flex;
+    margin-left: -1px;
     .a-category {
       // margin-left: 5px;
     }
@@ -87,10 +88,11 @@
     border-radius: 10px;
   }
   .a-description {
-    margin-top: 12px;
+    margin-top: 10px;
     margin-bottom: 26px;
     // margin-left: 6px;
     color: #717171;
+    line-height: 23px;
   }
   .a-link {
     // margin-left: 6px;
@@ -99,6 +101,8 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     cursor: pointer;
+    display: block;
+    margin-top: -4px;
     &::after {
       font-family: "Material Icons";
       font-weight: 700;

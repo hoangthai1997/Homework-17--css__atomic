@@ -69,6 +69,7 @@
 
 .m-schedule .m-categories {
   display: flex;
+  margin-left: -1px;
 }
 
 .m-schedule .a-name {
@@ -92,9 +93,10 @@
 }
 
 .m-schedule .a-description {
-  margin-top: 12px;
+  margin-top: 10px;
   margin-bottom: 26px;
   color: #717171;
+  line-height: 23px;
 }
 
 .m-schedule .a-link {
@@ -103,6 +105,8 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   cursor: pointer;
+  display: block;
+  margin-top: -4px;
 }
 
 .m-schedule .a-link::after {

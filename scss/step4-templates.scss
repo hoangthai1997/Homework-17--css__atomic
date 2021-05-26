@@ -1,10 +1,13 @@
 .t-header {
-  width: 1170px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+  justify-content: space-around;
   background-color: black;
+  padding: 15px;
   .o-telephone {
     display: flex;
     .m-phone a {
@@ -28,6 +31,7 @@
 .t-section--key-visual {
   margin-top: 60px;
   overflow: hidden;
+  // position: absolute;
 }
 
 .t-section--new-in {
