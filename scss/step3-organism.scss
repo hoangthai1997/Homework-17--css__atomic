@@ -64,6 +64,7 @@
         }
         .a-button {
           margin-left: 16px;
+          cursor: pointer;
         }
         .a-icon {
           font-family: "Material Icons";
@@ -310,6 +311,7 @@
   margin: auto;
   overflow: hidden;
   .m-slide {
+    cursor: pointer;
     flex-basis: 20%;
     flex-shrink: 0;
     flex-grow: 0;
