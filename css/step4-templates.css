@@ -105,3 +105,16 @@
 .t-footer div .o-footer {
   width: 25%;
 }
+
+.t-footer div .o-footer:nth-child(2) {
+  padding-top: 21px;
+}
+
+.t-footer div .a-copyright {
+  margin-bottom: 20px;
+  padding-left: 14px;
+}
+
+.t-footer div:nth-child(2) {
+  width: 1170px;
+}

@@ -11,12 +11,12 @@
   height: 2px;
   width: 100%;
   right: 10px;
-  top: 46.5px;
+  top: 44.5px;
 }
 
 .a-nav-link {
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 0.8em;
   letter-spacing: 3px;
@@ -187,6 +187,8 @@
 hr {
   background-color: #d8d8d8;
   opacity: 0.25;
+  width: 1170px;
+  margin-top: 38px;
 }
 
 .a-head {
