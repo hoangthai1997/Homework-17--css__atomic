@@ -1,32 +1,13 @@
 .t-header {
   position: fixed;
-  left: 0;
   top: 0;
+  left: -30px;
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
-  background-color: black;
   padding: 15px;
   z-index: 2;
-  .o-telephone {
-    display: flex;
-    .m-phone a {
-      font-size: 14px;
-      font-family: "roboto condensed", sans-serif;
-      color: white;
-      .a-icon-phone {
-        color: #fff;
-        font-size: 17px;
-      }
-    }
-    .m-search {
-      .a-icon-search {
-        color: #fff;
-        font-size: 17px;
-      }
-    }
-  }
 }
 
 .t-section--key-visual {
@@ -34,15 +15,19 @@
   overflow: hidden;
   width: 1519.2px;
   z-index: 0;
+  position: absolute;
+  top: -30px;
+  left: 0;
 }
 
 .t-section--new-in {
-  padding-top: 80px;
+  padding-top: 650px;
   padding-bottom: 140px;
   width: 1170px;
   margin: auto;
   header {
     margin-bottom: 50px;
+    margin-left: 15px;
   }
 }
 

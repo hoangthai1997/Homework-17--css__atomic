@@ -1,3 +1,24 @@
+.o-telephone {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.o-telephone .m-phone a {
+  font-size: 14px;
+  font-family: "roboto condensed", sans-serif;
+  color: white;
+}
+
+.o-telephone .m-phone a .a-icon-phone {
+  color: #fff;
+  font-size: 17px;
+}
+
+.o-telephone .m-search .a-icon-search {
+  color: #fff;
+  font-size: 17px;
+}
+
 .o-navs {
   display: flex;
 }
