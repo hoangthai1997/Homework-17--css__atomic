@@ -10,6 +10,8 @@
     width: 1170px;
     margin: auto auto 0;
     z-index: 1;
+    top: 54px;
+    left: 32px;
   }
   .a-description {
     position: relative;
@@ -38,7 +40,8 @@
   z-index: 1;
   padding-left: 165px;
   position: absolute;
-  bottom: 80px;
+  bottom: 3px;
+  left: 39px;
   .a-bullet {
     display: inline-block;
     border: solid 2px #fff;

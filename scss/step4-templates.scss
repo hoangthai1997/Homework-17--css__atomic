@@ -1,13 +1,18 @@
 .t-header {
   position: absolute;
-  top: 35px;
-  left: -30px;
+  top: 40px;
+  left: -40px;
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   padding: 15px;
   z-index: 2;
+  .a-logo {
+    position: relative;
+    left: 49px;
+    bottom: 6px;
+  }
 }
 
 .t-section--key-visual {

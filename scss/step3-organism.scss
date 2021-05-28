@@ -64,11 +64,17 @@
         padding-right: 336px;
         margin-top: 11px;
         width: 825px;
+        position: relative;
+        top: 53px;
+        left: 33px;
       }
       .m-rated {
         display: flex;
         margin-top: 29px;
         margin-bottom: 171px;
+        position: relative;
+        top: 46px;
+        left: 34px;
         .a-rate {
           display: inline-block;
           transform: translateY(2px);
@@ -81,6 +87,9 @@
           border: solid 2px #fff;
           width: 45px;
           height: 45px;
+          position: relative;
+          bottom: 2px;
+          left: 3px;
         }
         .a-button {
           margin-left: 16px;
