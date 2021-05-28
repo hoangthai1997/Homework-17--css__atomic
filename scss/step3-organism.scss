@@ -169,6 +169,10 @@
 }
 .o-slider-container {
   overflow: hidden;
+  margin-right: 115px;
+  position: relative;
+  bottom: 9px;
+  right: 2px;
   .o-slider--new-in {
     display: flex;
     .m-slide {
@@ -185,12 +189,13 @@
       figcaption {
         .o-stars {
           display: flex;
-          // margin-left: 91px;
+          position: relative;
+          left: 79px;
           text-align: center;
           margin: 14px 0;
           width: 18px;
           .m-star {
-            // margin-left: 3px;
+            margin-left: 3px;
             color: #fbbd61;
             display: inline-block;
             width: 100%;
@@ -330,6 +335,7 @@
   width: 1170px;
   margin: auto;
   overflow: hidden;
+  justify-content: space-between;
   .m-slide {
     cursor: pointer;
     flex-basis: 20%;
@@ -347,7 +353,6 @@
       overflow: hidden;
       width: 100%;
       margin-top: 20px;
-      // margin-left: -27px;
       text-align: center;
       white-space: nowrap;
       text-overflow: ellipsis;
@@ -358,10 +363,12 @@
       position: relative;
       font-family: inherit;
       font-weight: 500;
+      right: 40px;
     }
     .a-date {
-      // margin-left: 34px;
       margin-top: 5px;
+      position: relative;
+      left: 40px;
     }
   }
 }

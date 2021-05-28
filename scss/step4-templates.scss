@@ -80,7 +80,6 @@
     margin: auto;
     display: flex;
     align-items: center;
-    // margin-left: 150px;
     margin-top: 55px;
     .o-footer {
       width: 25%;
@@ -95,5 +94,10 @@
   }
   div:nth-child(2) {
     width: 1170px;
+  }
+  .m-copyright {
+    position: relative;
+    bottom: 30px;
+    right: 14px;
   }
 }

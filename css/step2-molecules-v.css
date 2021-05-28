@@ -39,6 +39,10 @@
 
 .m-bullets {
   display: flex;
+  z-index: 1;
+  padding-left: 165px;
+  position: absolute;
+  bottom: 80px;
 }
 
 .m-bullets .a-bullet {
@@ -50,6 +54,7 @@
   border-radius: 10px;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
+  margin-left: 10px;
 }
 
 .m-bullets .a-bullet--active {

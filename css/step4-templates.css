@@ -101,3 +101,9 @@
 .t-footer div:nth-child(2) {
   width: 1170px;
 }
+
+.t-footer .m-copyright {
+  position: relative;
+  bottom: 30px;
+  right: 14px;
+}

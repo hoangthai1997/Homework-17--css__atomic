@@ -178,6 +178,10 @@
 
 .o-slider-container {
   overflow: hidden;
+  margin-right: 115px;
+  position: relative;
+  bottom: 9px;
+  right: 2px;
 }
 
 .o-slider-container .o-slider--new-in {
@@ -200,12 +204,15 @@
 
 .o-slider-container .o-slider--new-in .m-slide figcaption .o-stars {
   display: flex;
+  position: relative;
+  left: 79px;
   text-align: center;
   margin: 14px 0;
   width: 18px;
 }
 
 .o-slider-container .o-slider--new-in .m-slide figcaption .o-stars .m-star {
+  margin-left: 3px;
   color: #fbbd61;
   display: inline-block;
   width: 100%;
@@ -343,6 +350,7 @@
   width: 1170px;
   margin: auto;
   overflow: hidden;
+  justify-content: space-between;
 }
 
 .o-slider--coming .m-slide {
@@ -374,10 +382,13 @@
   position: relative;
   font-family: inherit;
   font-weight: 500;
+  right: 40px;
 }
 
 .o-slider--coming .m-slide .a-date {
   margin-top: 5px;
+  position: relative;
+  left: 40px;
 }
 
 .o-footer .a-title {
