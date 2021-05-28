@@ -1,12 +1,15 @@
 .o-telephone {
   display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  right: 118px;
+  bottom: 72px;
 }
 
 .o-telephone .m-phone a {
   font-size: 14px;
   font-family: "roboto condensed", sans-serif;
   color: white;
+  font-weight: 700;
 }
 
 .o-telephone .m-phone a .a-icon-phone {

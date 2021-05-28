@@ -30,6 +30,9 @@
   padding-bottom: 140px;
   width: 1170px;
   margin: auto;
+  position: relative;
+  top: 84px;
+  left: 9px;
   header {
     margin-bottom: 50px;
     margin-left: 15px;
@@ -41,6 +44,16 @@
   padding-bottom: 60px;
   width: 1170px;
   margin: auto;
+  nav {
+    position: relative;
+    top: 70px;
+    left: 22px;
+  }
+  .o-films {
+    position: relative;
+    top: 65px;
+    left: 8px;
+  }
 }
 
 .t-section--coming {
