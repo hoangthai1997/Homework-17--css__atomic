@@ -1,6 +1,6 @@
 .t-header {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 35px;
   left: -30px;
   width: 100%;
   margin: auto;
