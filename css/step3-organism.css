@@ -320,7 +320,7 @@
   letter-spacing: 1px;
   line-height: 1.4em;
   position: relative;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .o-coming-list .m-coming-item .m-movie .o-stars {
@@ -367,6 +367,7 @@
   text-transform: uppercase;
   color: #ec7532;
   cursor: pointer;
+  top: 20px;
 }
 
 .o-slider--coming {
