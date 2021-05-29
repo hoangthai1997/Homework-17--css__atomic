@@ -1,8 +1,8 @@
 .o-telephone {
   display: flex;
   position: absolute;
-  right: 118px;
-  bottom: 72px;
+  right: 220px;
+  bottom: 75px;
 }
 
 .o-telephone .m-phone a {
@@ -10,11 +10,24 @@
   font-family: "roboto condensed", sans-serif;
   color: white;
   font-weight: 700;
+  position: relative;
+  bottom: 1px;
+  left: 6px;
 }
 
 .o-telephone .m-phone a .a-icon-phone {
   color: #fff;
   font-size: 17px;
+  position: relative;
+  left: 104px;
+  top: 3px;
+}
+
+.o-telephone .m-search {
+  position: relative;
+  left: 36px;
+  top: 3px;
+  border-left: 1px dotted rgba(255, 255, 255, 0.5);
 }
 
 .o-telephone .m-search .a-icon-search {
