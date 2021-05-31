@@ -264,11 +264,14 @@
     .m-movie {
       .m-picture {
         position: relative;
+        right: 187px;
+        bottom: 92px;
         .a-picture {
           position: absolute;
           top: 50%;
           left: 90%;
           transform: translate(-50%, -50%);
+          object-fit: cover;
         }
         .a-icon {
           position: absolute;
@@ -288,9 +291,6 @@
       }
       .m-categories {
         display: flex;
-        .a-category {
-          // margin-left: 5px;
-        }
       }
       .a-title {
         font-size: 34px;
@@ -301,21 +301,19 @@
         letter-spacing: 1px;
         line-height: 1.4em;
         position: relative;
-        // margin-left: 5px;
+        left: 3px;
         margin-top: 1px;
       }
       .o-stars {
         display: flex;
-        // margin-left: 2.5px;
         margin-top: 6px;
         .m-star {
-          // margin-left: 3px;
           color: #fbbd61;
           display: inline-block;
-          // width: 100%;
           .a-star {
             font-size: 14px;
             width: 14px;
+            padding-left: 3px;
           }
           .a-star--disvoted {
             color: #d8d8d8;
@@ -324,6 +322,11 @@
         .m-date {
           // margin-left: 15px;
           margin-top: -1px;
+          .a-date {
+            position: relative;
+            bottom: 2px;
+            left: 19px;
+          }
           .a-icon {
             font-size: 14px;
             display: inline-flex;
@@ -335,9 +338,11 @@
       .a-description {
         color: #fff;
         font-size: 16px;
-        // margin-left: 5px;
+        margin-left: 2px;
         margin-top: 23px;
         margin-bottom: 10px;
+        width: 450px;
+        line-height: 21px;
       }
       .a-link {
         font-size: 12px;
@@ -346,7 +351,8 @@
         text-transform: uppercase;
         color: #ec7532;
         cursor: pointer;
-        top: 20px;
+        top: 15px;
+        left: 3px;
       }
     }
   }

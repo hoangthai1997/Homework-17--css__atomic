@@ -282,6 +282,8 @@
 
 .o-coming-list .m-coming-item .m-movie .m-picture {
   position: relative;
+  right: 187px;
+  bottom: 92px;
 }
 
 .o-coming-list .m-coming-item .m-movie .m-picture .a-picture {
@@ -289,6 +291,7 @@
   top: 50%;
   left: 90%;
   transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .o-coming-list .m-coming-item .m-movie .m-picture .a-icon {
@@ -320,6 +323,7 @@
   letter-spacing: 1px;
   line-height: 1.4em;
   position: relative;
+  left: 3px;
   margin-top: 1px;
 }
 
@@ -336,6 +340,7 @@
 .o-coming-list .m-coming-item .m-movie .o-stars .m-star .a-star {
   font-size: 14px;
   width: 14px;
+  padding-left: 3px;
 }
 
 .o-coming-list .m-coming-item .m-movie .o-stars .m-star .a-star--disvoted {
@@ -344,6 +349,12 @@
 
 .o-coming-list .m-coming-item .m-movie .o-stars .m-date {
   margin-top: -1px;
+}
+
+.o-coming-list .m-coming-item .m-movie .o-stars .m-date .a-date {
+  position: relative;
+  bottom: 2px;
+  left: 19px;
 }
 
 .o-coming-list .m-coming-item .m-movie .o-stars .m-date .a-icon {
@@ -356,8 +367,11 @@
 .o-coming-list .m-coming-item .m-movie .a-description {
   color: #fff;
   font-size: 16px;
+  margin-left: 2px;
   margin-top: 23px;
   margin-bottom: 10px;
+  width: 450px;
+  line-height: 21px;
 }
 
 .o-coming-list .m-coming-item .m-movie .a-link {
@@ -367,7 +381,8 @@
   text-transform: uppercase;
   color: #ec7532;
   cursor: pointer;
-  top: 20px;
+  top: 15px;
+  left: 3px;
 }
 
 .o-slider--coming {
