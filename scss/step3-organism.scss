@@ -1,27 +1,27 @@
 .o-telephone {
   display: flex;
   position: absolute;
-  right: 220px;
-  bottom: 75px;
+  right: 14.2%;
+  bottom: 87%;
   .m-phone a {
     font-size: 14px;
     font-family: "roboto condensed", sans-serif;
     color: white;
     font-weight: 700;
     position: relative;
-    bottom: 1px;
-    left: 6px;
+    bottom: 2%;
+    left: 3%;
     .a-icon-phone {
       color: #fff;
       font-size: 17px;
       position: relative;
-      left: 104px;
-      top: 3px;
+      left: 49%;
+      top: 20%;
     }
   }
   .m-search {
     position: relative;
-    left: 36px;
+    left: 15%;
     top: 3px;
     border-left: 1px dotted rgba(255, 255, 255, 0.5);
     .a-icon-search {
@@ -57,6 +57,9 @@
     .m-key-visual-article {
       .m-categories {
         display: flex;
+        position: relative;
+        top: -4%;
+        margin-left: -3px;
         .a-category {
           margin-left: 5.6px;
           color: #fbbd61;
@@ -78,16 +81,16 @@
         margin-top: 11px;
         width: 825px;
         position: relative;
-        top: 53px;
-        left: 33px;
+        top: 8.2%;
+        left: 2.2%;
       }
       .m-rated {
         display: flex;
         margin-top: 29px;
         margin-bottom: 171px;
         position: relative;
-        top: 46px;
-        left: 34px;
+        top: 7%;
+        left: 2.2%;
         .a-rate {
           display: inline-block;
           transform: translateY(2px);
@@ -101,8 +104,8 @@
           width: 45px;
           height: 45px;
           position: relative;
-          bottom: 2px;
-          left: 3px;
+          bottom: 2%;
+          left: 0.3%;
         }
         .a-button {
           margin-left: 16px;
@@ -124,20 +127,11 @@
   display: flex;
 }
 
-.o-schedule {
-  .a-title {
-    // margin-left: 6px;
-  }
-}
-
 .o-films {
   display: none;
   margin-top: 50px;
   .m-schedule {
     margin-bottom: 30px;
-    .a-category {
-      // margin-left: 1px;
-    }
     .m-container {
       display: flex;
       margin-top: 32px;
@@ -193,8 +187,8 @@
   overflow: hidden;
   margin-right: 115px;
   position: relative;
-  bottom: 9px;
-  right: 2px;
+  bottom: 10px;
+  right: 0;
   .o-slider--new-in {
     display: flex;
     .m-slide {
@@ -241,13 +235,9 @@
         font-weight: 500;
       }
       .m-stars {
-        // margin-left: 74px;
         margin-top: 13px;
       }
     }
-    // .m-slide--active {
-    //   display: block;
-    // }
   }
 }
 
@@ -301,7 +291,7 @@
         letter-spacing: 1px;
         line-height: 1.4em;
         position: relative;
-        left: 3px;
+        left: 0.5%;
         margin-top: 1px;
       }
       .o-stars {
@@ -320,12 +310,11 @@
           }
         }
         .m-date {
-          // margin-left: 15px;
           margin-top: -1px;
           .a-date {
             position: relative;
-            bottom: 2px;
-            left: 19px;
+            bottom: 4%;
+            left: 15%;
           }
           .a-icon {
             font-size: 14px;
@@ -364,18 +353,15 @@
   width: 1170px;
   margin: auto;
   overflow: hidden;
-  justify-content: space-between;
   .m-slide {
     cursor: pointer;
     flex-basis: 20%;
     flex-shrink: 0;
     flex-grow: 0;
-    padding: 0 15px;
     .a-picture {
       border-radius: 10px;
       display: block;
       width: 165px;
-      // margin-left: 10px;
     }
     .a-name {
       font-size: 16px;
@@ -392,12 +378,12 @@
       position: relative;
       font-family: inherit;
       font-weight: 500;
-      right: 40px;
+      right: 16%;
     }
     .a-date {
       margin-top: 5px;
       position: relative;
-      left: 40px;
+      left: 11%;
     }
   }
 }

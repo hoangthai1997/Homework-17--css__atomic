@@ -1,8 +1,8 @@
 .o-telephone {
   display: flex;
   position: absolute;
-  right: 220px;
-  bottom: 75px;
+  right: 14.2%;
+  bottom: 87%;
 }
 
 .o-telephone .m-phone a {
@@ -11,21 +11,21 @@
   color: white;
   font-weight: 700;
   position: relative;
-  bottom: 1px;
-  left: 6px;
+  bottom: 2%;
+  left: 3%;
 }
 
 .o-telephone .m-phone a .a-icon-phone {
   color: #fff;
   font-size: 17px;
   position: relative;
-  left: 104px;
-  top: 3px;
+  left: 49%;
+  top: 20%;
 }
 
 .o-telephone .m-search {
   position: relative;
-  left: 36px;
+  left: 15%;
   top: 3px;
   border-left: 1px dotted rgba(255, 255, 255, 0.5);
 }
@@ -66,6 +66,9 @@
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-categories {
   display: flex;
+  position: relative;
+  top: -4%;
+  margin-left: -3px;
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-categories .a-category {
@@ -90,8 +93,8 @@
   margin-top: 11px;
   width: 825px;
   position: relative;
-  top: 53px;
-  left: 33px;
+  top: 8.2%;
+  left: 2.2%;
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-rated {
@@ -99,8 +102,8 @@
   margin-top: 29px;
   margin-bottom: 171px;
   position: relative;
-  top: 46px;
-  left: 34px;
+  top: 7%;
+  left: 2.2%;
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-rated .a-rate {
@@ -116,8 +119,8 @@
   width: 45px;
   height: 45px;
   position: relative;
-  bottom: 2px;
-  left: 3px;
+  bottom: 2%;
+  left: 0.3%;
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .m-rated .a-button {
@@ -205,8 +208,8 @@
   overflow: hidden;
   margin-right: 115px;
   position: relative;
-  bottom: 9px;
-  right: 2px;
+  bottom: 10px;
+  right: 0;
 }
 
 .o-slider-container .o-slider--new-in {
@@ -323,7 +326,7 @@
   letter-spacing: 1px;
   line-height: 1.4em;
   position: relative;
-  left: 3px;
+  left: 0.5%;
   margin-top: 1px;
 }
 
@@ -353,8 +356,8 @@
 
 .o-coming-list .m-coming-item .m-movie .o-stars .m-date .a-date {
   position: relative;
-  bottom: 2px;
-  left: 19px;
+  bottom: 4%;
+  left: 15%;
 }
 
 .o-coming-list .m-coming-item .m-movie .o-stars .m-date .a-icon {
@@ -391,7 +394,6 @@
   width: 1170px;
   margin: auto;
   overflow: hidden;
-  justify-content: space-between;
 }
 
 .o-slider--coming .m-slide {
@@ -399,7 +401,6 @@
   flex-basis: 20%;
   flex-shrink: 0;
   flex-grow: 0;
-  padding: 0 15px;
 }
 
 .o-slider--coming .m-slide .a-picture {
@@ -423,13 +424,13 @@
   position: relative;
   font-family: inherit;
   font-weight: 500;
-  right: 40px;
+  right: 16%;
 }
 
 .o-slider--coming .m-slide .a-date {
   margin-top: 5px;
   position: relative;
-  left: 40px;
+  left: 11%;
 }
 
 .o-footer .a-title {

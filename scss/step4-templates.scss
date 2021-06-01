@@ -1,7 +1,7 @@
 .t-header {
   position: absolute;
-  top: 40px;
-  left: -40px;
+  top: 10%;
+  left: -2.7%;
   width: 100%;
   margin: auto;
   display: flex;
@@ -10,18 +10,18 @@
   z-index: 2;
   .a-logo {
     position: relative;
-    left: 49px;
-    bottom: 6px;
+    left: 22%;
+    bottom: 10%;
   }
 }
 
 .t-section--key-visual {
-  margin-top: 30px;
+  margin-top: 15px;
   overflow: hidden;
   width: 1519.2px;
   z-index: 0;
   position: absolute;
-  top: -30px;
+  top: -9%;
   left: 0;
 }
 
@@ -31,8 +31,8 @@
   width: 1170px;
   margin: auto;
   position: relative;
-  top: 84px;
-  left: 9px;
+  top: 73px;
+  left: 7px;
   header {
     margin-bottom: 50px;
     margin-left: 15px;
@@ -44,10 +44,12 @@
   padding-bottom: 200px;
   width: 1170px;
   margin: auto;
+  position: relative;
+  top: -12px;
   nav {
     position: relative;
     top: 70px;
-    left: 22px;
+    left: 2%;
   }
   .o-films {
     position: relative;
@@ -83,9 +85,6 @@
     font-size: 23px;
     font-weight: 300;
     color: #4a4a4a;
-  }
-  .a-phone {
-    // margin-left: 1px;
   }
 }
 
