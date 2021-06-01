@@ -86,6 +86,10 @@
   letter-spacing: 1.7px;
 }
 
+.a-section-title--coming {
+  color: #fff;
+}
+
 .a-section-title::after {
   content: "";
   background-image: linear-gradient(to right, #fbbd61, #ec7532);

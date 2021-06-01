@@ -1,8 +1,8 @@
 .o-telephone {
   display: flex;
   position: absolute;
-  right: 14.2%;
-  bottom: 87%;
+  right: 12.6%;
+  bottom: 89%;
 }
 
 .o-telephone .m-phone a {
@@ -68,7 +68,7 @@
 .o-slider--key-visual .m-slide .m-key-visual-article .m-categories {
   display: flex;
   position: relative;
-  top: -4%;
+  top: 7%;
   margin-left: -3px;
 }
 
@@ -84,6 +84,8 @@
   line-height: 1.4;
   letter-spacing: 3px;
   padding-left: 6px;
+  position: relative;
+  top: 8%;
 }
 
 .o-slider--key-visual .m-slide .m-key-visual-article .a-description {
@@ -94,7 +96,7 @@
   margin-top: 11px;
   width: 825px;
   position: relative;
-  top: 8.2%;
+  top: 10.2%;
   left: 2.2%;
 }
 
@@ -103,7 +105,7 @@
   margin-top: 29px;
   margin-bottom: 171px;
   position: relative;
-  top: 7%;
+  top: 9%;
   left: 2.2%;
 }
 

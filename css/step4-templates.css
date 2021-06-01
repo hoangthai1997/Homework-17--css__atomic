@@ -1,7 +1,7 @@
 .t-header {
   position: absolute;
-  top: 5%;
-  left: -1.7%;
+  top: 9%;
+  left: -2.7%;
   width: 100%;
   margin: auto;
   display: flex;
@@ -12,8 +12,8 @@
 
 .t-header .a-logo {
   position: relative;
-  left: 22%;
-  bottom: 10%;
+  left: 23%;
+  bottom: 8%;
 }
 
 .t-section--key-visual {
@@ -22,7 +22,7 @@
   width: 1519.2px;
   z-index: 0;
   position: absolute;
-  top: -9%;
+  top: -5%;
   left: 0;
 }
 
@@ -32,8 +32,8 @@
   width: 1170px;
   margin: auto;
   position: relative;
-  top: 73px;
-  left: 7px;
+  top: 85px;
+  left: 8px;
 }
 
 .t-section--new-in header {
@@ -47,7 +47,7 @@
   width: 1170px;
   margin: auto;
   position: relative;
-  top: -12px;
+  top: 0;
 }
 
 .t-section--schedule nav {

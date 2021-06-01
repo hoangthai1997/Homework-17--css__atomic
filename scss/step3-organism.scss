@@ -1,8 +1,8 @@
 .o-telephone {
   display: flex;
   position: absolute;
-  right: 14.2%;
-  bottom: 87%;
+  right: 12.6%;
+  bottom: 89%;
   .m-phone a {
     font-size: 14px;
     font-family: "roboto condensed", sans-serif;
@@ -59,7 +59,7 @@
       .m-categories {
         display: flex;
         position: relative;
-        top: -4%;
+        top: 7%;
         margin-left: -3px;
         .a-category {
           margin-left: 5.6px;
@@ -73,6 +73,8 @@
         line-height: 1.4;
         letter-spacing: 3px;
         padding-left: 6px;
+        position: relative;
+        top: 8%;
       }
       .a-description {
         line-height: 26px;
@@ -82,7 +84,7 @@
         margin-top: 11px;
         width: 825px;
         position: relative;
-        top: 8.2%;
+        top: 10.2%;
         left: 2.2%;
       }
       .m-rated {
@@ -90,7 +92,7 @@
         margin-top: 29px;
         margin-bottom: 171px;
         position: relative;
-        top: 7%;
+        top: 9%;
         left: 2.2%;
         .a-rate {
           display: inline-block;
